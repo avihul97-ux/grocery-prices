@@ -4,8 +4,8 @@
  "report": [
   {
    "chain": "שופרסל",
-   "status": "לא ירדו קבצי סניפים (האתר לא ענה בזמן, כנראה חסום מחוץ לישראל)",
-   "stores": 0
+   "status": "תקין",
+   "stores": 8
   },
   {
    "chain": "רמי לוי",
@@ -56,25 +56,47 @@
  "prices": [
   {
    "item": "ביצים",
-   "product": "ביצים 12 יח גדול L",
-   "barcode": "742259241901",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 14.5,
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 20.1,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 14.5
+   "unit_price": 20.1
   },
   {
    "item": "ביצים",
-   "product": "ביצים 12 יח גדול L",
-   "barcode": "742259241901",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 14.54,
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "אושר עד",
+   "branch": "תל אביב",
+   "price": 19.6,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 14.54
+   "unit_price": 1.09
+  },
+  {
+   "item": "ביצים",
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 20.1,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 20.1
+  },
+  {
+   "item": "שייטל",
+   "product": "שייטל טרי מוכשר (לק\"ג)",
+   "barcode": "7290000933269",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קסם",
+   "price": 139.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 139.9
   },
   {
    "item": "שייטל",
@@ -122,6 +144,17 @@
   },
   {
    "item": "חזה עוף",
+   "product": "חזה עוף טרי ארוז (לק\"ג)",
+   "barcode": "7290004859671",
+   "chain": "שופרסל",
+   "branch": "שופרסל אקספרס הרוא\"ה רמת גן",
+   "price": 39.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 39.9
+  },
+  {
+   "item": "חזה עוף",
    "product": "חזה עוף פרימיום (לק\"ג)",
    "barcode": "7290002683728",
    "chain": "רמי לוי",
@@ -133,25 +166,25 @@
   },
   {
    "item": "חזה עוף",
-   "product": "חזה עוף קפוא פרימה (לק\"ג)",
-   "barcode": "7290002069256",
+   "product": "חזה עוף טרי פרימה (לק\"ג)",
+   "barcode": "7290002069041",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 24.9,
+   "price": 39.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 24.9
+   "unit_price": 39.9
   },
   {
    "item": "חזה עוף",
-   "product": "חזה עוף בגריל (לק\"ג)",
-   "barcode": "888446",
+   "product": "חזה עוף ארוז טרי (לק\"ג)",
+   "barcode": "407708",
    "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 79.0,
+   "branch": "תל אביב  נחלת יצחק",
+   "price": 34.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 79.0
+   "unit_price": 34.9
   },
   {
    "item": "חזה עוף",
@@ -177,80 +210,91 @@
   },
   {
    "item": "פסטרמות",
-   "product": "פסטרמה הודו בדבש 3%",
-   "barcode": "7290003229116",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 29.9,
+   "product": "פסטרמה אקסמעושנת דק120",
+   "barcode": "7290109580432",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 18.5,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.47
+   "unit_price": 15.42
   },
   {
    "item": "פסטרמות",
-   "product": "פסטרמה הודו בדבש 3%",
-   "barcode": "7290003229116",
+   "product": "פסטרמה אקסמעושנת דק120",
+   "barcode": "7290109580432",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 11.58
+  },
+  {
+   "item": "פסטרמות",
+   "product": "פסטרמה אקסמעושנת דק120",
+   "barcode": "7290109580432",
    "chain": "אושר עד",
    "branch": "תל אביב",
-   "price": 29.9,
+   "price": 13.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.47
+   "unit_price": 11.58
   },
   {
    "item": "פסטרמות",
-   "product": "פסטרמה הודו בדבש 3%",
-   "barcode": "7290003229116",
+   "product": "פסטרמה אקסמעושנת דק120",
+   "barcode": "7290109580432",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 31.9,
+   "price": 13.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.98
+   "unit_price": 11.58
   },
   {
    "item": "פסטרמות",
-   "product": "פסטרמה הודו בדבש 3%",
-   "barcode": "7290003229116",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 34.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 8.73
-  },
-  {
-   "item": "פסטרמות",
-   "product": "פסטרמה הודו בדבש 3%",
-   "barcode": "7290003229116",
+   "product": "פסטרמה אקסמעושנת דק120",
+   "barcode": "7290109580432",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 31.9,
+   "price": 15.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.97
+   "unit_price": 13.25
   },
   {
    "item": "גבינה צהובה",
-   "product": "גבינה צהובה גלבוע 22",
-   "barcode": "7290000046327",
+   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
+   "barcode": "7290102396665",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 23.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 11.95
+  },
+  {
+   "item": "גבינה צהובה",
+   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
+   "barcode": "7290102396665",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 14.6,
+   "price": 18.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.3
+   "unit_price": 9.45
   },
   {
    "item": "גבינה צהובה",
-   "product": "גבינה צהובה גלבוע 22",
-   "barcode": "7290000046327",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 14.9,
+   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
+   "barcode": "7290102396665",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 23.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.45
+   "unit_price": 11.95
   },
   {
    "item": "שניצל תירס 99 קלוריות",
@@ -265,47 +309,47 @@
   },
   {
    "item": "פרמזן",
-   "product": "פרמזן גבע מגורדת 23%",
-   "barcode": "7290004122119",
+   "product": "פרמזן מגורדת במשקל (לק\"ג)",
+   "barcode": "7290009954395",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- מרום נווה",
+   "price": 155.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 155.0
+  },
+  {
+   "item": "פרמזן",
+   "product": "גבינת פרמז'ן רמי לוי (לק\"ג)",
+   "barcode": "7290002370512",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 12.9,
+   "price": 98.0,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 12.9
+   "unit_price": 98.0
   },
   {
    "item": "פרמזן",
-   "product": "פרמזן גבע מגורדת 23%",
-   "barcode": "7290004122119",
+   "product": "פרמזן מגורד (לק\"ג)",
+   "barcode": "7290002837022",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 12.9,
+   "price": 95.0,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 12.9
+   "unit_price": 95.0
   },
   {
    "item": "פרמזן",
-   "product": "פרמזן גבע מגורדת 23%",
-   "barcode": "7290004122119",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 16.8,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 7.64
-  },
-  {
-   "item": "פרמזן",
-   "product": "פרמזן גבע מגורדת 23%",
-   "barcode": "7290004122119",
+   "product": "בסגנון פרמזן (לק\"ג)",
+   "barcode": "7290000002209",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 14.9,
+   "price": 74.0,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 14.9
+   "unit_price": 74.0
   },
   {
    "item": "גרעיני פופקורן",
@@ -320,7 +364,18 @@
   },
   {
    "item": "שוקולד מריר",
-   "product": "שוקולד פרה מריר עלית",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
+   "barcode": "7290000178134",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 32.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.23
+  },
+  {
+   "item": "שוקולד מריר",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
    "barcode": "7290000178134",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
@@ -331,7 +386,7 @@
   },
   {
    "item": "שוקולד מריר",
-   "product": "שוקולד פרה מריר עלית",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
    "barcode": "7290000178134",
    "chain": "אושר עד",
    "branch": "בני ברק",
@@ -342,7 +397,7 @@
   },
   {
    "item": "שוקולד מריר",
-   "product": "שוקולד פרה מריר עלית",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
    "barcode": "7290000178134",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
@@ -353,7 +408,7 @@
   },
   {
    "item": "שוקולד מריר",
-   "product": "שוקולד פרה מריר עלית",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
    "barcode": "7290000178134",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -364,7 +419,7 @@
   },
   {
    "item": "שוקולד מריר",
-   "product": "שוקולד פרה מריר עלית",
+   "product": "שוקולד פרה מריר רביעייה 4*100 גר",
    "barcode": "7290000178134",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
@@ -375,7 +430,7 @@
   },
   {
    "item": "שוקולד מריר תפוז",
-   "product": "שוקולד מריר תפוז בלג",
+   "product": "שוקולד בלגי מריר עם תפוז פרסטיז 100 גרם",
    "barcode": "5413121355075",
    "chain": "רמי לוי",
    "branch": "בן גוריון גבעתיים",
@@ -386,7 +441,7 @@
   },
   {
    "item": "שוקולד מריר תפוז",
-   "product": "שוקולד מריר תפוז בלג",
+   "product": "שוקולד בלגי מריר עם תפוז פרסטיז 100 גרם",
    "barcode": "5413121355075",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -397,7 +452,18 @@
   },
   {
    "item": "גבינה לבנה",
-   "product": "גבינה לבנה 5% טרה 25",
+   "product": "גבינה לבנה 5% שומן 250 ג",
+   "barcode": "7290000474502",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 5.87,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.35
+  },
+  {
+   "item": "גבינה לבנה",
+   "product": "גבינה לבנה 5% שומן 250 ג",
    "barcode": "7290000474502",
    "chain": "רמי לוי",
    "branch": "בן גוריון גבעתיים",
@@ -408,7 +474,7 @@
   },
   {
    "item": "גבינה לבנה",
-   "product": "גבינה לבנה 5% טרה 25",
+   "product": "גבינה לבנה 5% שומן 250 ג",
    "barcode": "7290000474502",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
@@ -419,7 +485,7 @@
   },
   {
    "item": "גבינה לבנה",
-   "product": "גבינה לבנה 5% טרה 25",
+   "product": "גבינה לבנה 5% שומן 250 ג",
    "barcode": "7290000474502",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -430,7 +496,7 @@
   },
   {
    "item": "גבינה לבנה",
-   "product": "גבינה לבנה 5% טרה 25",
+   "product": "גבינה לבנה 5% שומן 250 ג",
    "barcode": "7290000474502",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
@@ -441,7 +507,7 @@
   },
   {
    "item": "שקדים טבעיים",
-   "product": "שקד טבעי 200 גר' קופ",
+   "product": "שקד טבעי  200 גר קופסא ששון הקולה",
    "barcode": "7290014094369",
    "chain": "רמי לוי",
    "branch": "ביאליק רמת גן",
@@ -452,7 +518,7 @@
   },
   {
    "item": "שקדים טבעיים",
-   "product": "שקד טבעי 200 גר' קופ",
+   "product": "שקד טבעי  200 גר קופסא ששון הקולה",
    "barcode": "7290014094369",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -463,7 +529,7 @@
   },
   {
    "item": "שקדים טבעיים",
-   "product": "שקד טבעי 200 גר' קופ",
+   "product": "שקד טבעי  200 גר קופסא ששון הקולה",
    "barcode": "7290014094369",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
@@ -474,7 +540,7 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח סנו ספא",
+   "product": "טבליות למדיח ספארק 30 יח",
    "barcode": "7290108351910",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
@@ -485,7 +551,7 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח סנו ספא",
+   "product": "טבליות למדיח ספארק 30 יח",
    "barcode": "7290108351910",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -496,7 +562,7 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח סנו ספא",
+   "product": "טבליות למדיח ספארק 30 יח",
    "barcode": "7290108351910",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
@@ -507,36 +573,47 @@
   },
   {
    "item": "מלח למדיח",
-   "product": "מלח למדיח פיניש 2 ק\"",
-   "barcode": "8410104045111",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 14.9,
+   "product": "מלח למדיח סנו בפארק 2 קג",
+   "barcode": "7290107280716",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 10.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.45
+   "unit_price": 10.9
   },
   {
    "item": "מלח למדיח",
-   "product": "מלח למדיח פיניש 2 ק\"",
-   "barcode": "8410104045111",
+   "product": "מלח למדיח סנו בפארק 2 קג",
+   "barcode": "7290107280716",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 17.9,
+   "price": 10.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 8.95
+   "unit_price": 5.45
   },
   {
    "item": "מלח למדיח",
-   "product": "מלח למדיח פיניש 2 ק\"",
-   "barcode": "8410104045111",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 19.9,
+   "product": "מלח למדיח סנו בפארק 2 קג",
+   "barcode": "7290107280716",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 21.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 9.95
+   "unit_price": 10.95
+  },
+  {
+   "item": "מלח למדיח",
+   "product": "מלח למדיח סנו בפארק 2 קג",
+   "barcode": "7290107280716",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 11.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.95
   },
   {
    "item": "נוזל לניקוי אסלה",
@@ -548,6 +625,17 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 7.5
+  },
+  {
+   "item": "כרעיים",
+   "product": "כרעיים עוף טרי (לק\"ג)",
+   "barcode": "7290001303467",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קסם",
+   "price": 31.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 31.9
   },
   {
    "item": "כרעיים",
@@ -606,6 +694,17 @@
   },
   {
    "item": "מלון",
+   "product": "מלון מובחר (לק\"ג)",
+   "barcode": "7290000965055",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "מלון",
    "product": "מלון (לק\"ג)",
    "barcode": "7290000000140",
    "chain": "רמי לוי",
@@ -652,6 +751,16 @@
  "candidates": {
   "ביצים": [
    {
+    "barcode": "7290001201619",
+    "name": "ביצים 18 יח בינוני ל",
+    "chains": [
+     "OSHER_AD",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 19.6
+   },
+   {
     "barcode": "742259241901",
     "name": "ביצים 12 יח גדול L",
     "chains": [
@@ -695,18 +804,25 @@
      "YOHANANOF"
     ],
     "min_price": 33.4
-   },
-   {
-    "barcode": "742259241956",
-    "name": "ביצים 30יח גדול L",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 36.2
    }
   ],
   "שייטל": [
+   {
+    "barcode": "7290006461650",
+    "name": "שייטל מצונן כשר",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 149.0
+   },
+   {
+    "barcode": "7290002627067",
+    "name": "שייטל בקר טרי מוכשר",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 139.9
+   },
    {
     "barcode": "405674",
     "name": "שייטל טרי",
@@ -732,155 +848,169 @@
     "min_price": 149.0
    },
    {
-    "barcode": "410296",
-    "name": "שייטל טרי כשר",
+    "barcode": "7290000933269",
+    "name": "שייטל טרי מוכשר",
     "chains": [
-     "YOHANANOF"
+     "SHUFERSAL"
     ],
-    "min_price": 99.9
-   },
-   {
-    "barcode": "7290019911616",
-    "name": "שייטל עגל טרי",
-    "chains": [
-     "TIV_TAAM"
-    ],
-    "min_price": 104.9
-   },
-   {
-    "barcode": "8776837",
-    "name": "שייטל טרי לרוסטביף",
-    "chains": [
-     "TIV_TAAM"
-    ],
-    "min_price": 135.9
+    "min_price": 139.9
    }
   ],
   "חזה עוף": [
    {
-    "barcode": "7290002610182",
-    "name": "חזה עוף ארוז קפוא חת",
+    "barcode": "7290000611235",
+    "name": "חזה עוף חצוי ארוז קפוא",
     "chains": [
-     "RAMI_LEVY"
+     "SHUFERSAL",
+     "YOHANANOF"
     ],
     "min_price": 34.9
    },
    {
-    "barcode": "17002",
-    "name": "חזה עוף",
+    "barcode": "7290000616827",
+    "name": "חזה עוף טרי ארוז שלי לקג",
     "chains": [
-     "KESHET"
+     "SHUFERSAL"
     ],
     "min_price": 39.9
    },
    {
-    "barcode": "7290002069041",
-    "name": "חזה עוף טרי פרימה",
+    "barcode": "7290005590320",
+    "name": "חזה עוף טרי ארוז שלי קג",
     "chains": [
-     "OSHER_AD"
+     "SHUFERSAL"
     ],
     "min_price": 39.9
    },
    {
-    "barcode": "7290002069256",
-    "name": "חזה עוף קפוא פרימה",
+    "barcode": "7290001303283",
+    "name": "חזה עוף פרוס ארוז קפוא",
     "chains": [
-     "OSHER_AD"
+     "SHUFERSAL"
     ],
-    "min_price": 24.9
+    "min_price": 44.9
    },
    {
-    "barcode": "7290002505044",
-    "name": "חזה עוף קפוא קהילות",
+    "barcode": "7290001303207",
+    "name": "חזה עוף ארוז קפוא מחיר ל",
     "chains": [
-     "OSHER_AD"
+     "SHUFERSAL"
     ],
-    "min_price": 47.9
+    "min_price": 39.9
    },
    {
-    "barcode": "7290002505471",
-    "name": "חזה עוף טרי קהילות",
+    "barcode": "7290009805291",
+    "name": "חזה עוף טרי ארוז עצמי",
     "chains": [
-     "OSHER_AD"
+     "SHUFERSAL"
     ],
-    "min_price": 47.9
+    "min_price": 39.9
    }
   ],
   "פסטרמות": [
    {
-    "barcode": "7290003229116",
-    "name": "פסטרמה הודו בדבש 3%",
+    "barcode": "7290109580432",
+    "name": "פסטרמה אקסמעושנת דק120",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 29.9
+    "min_price": 13.9
    },
    {
-    "barcode": "7290003229123",
-    "name": "פסטרמה הודו גחלים 2%",
+    "barcode": "7290012227974",
+    "name": "פסטרמה בדבש דק דק דק",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 29.9
+    "min_price": 13.9
    },
    {
-    "barcode": "7290000364285",
-    "name": "פסטרמה הודו דקניקים",
+    "barcode": "7290012227981",
+    "name": "פסטרמה ברביקיו דק דק דק",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 15.9
+    "min_price": 13.9
    },
    {
-    "barcode": "7290003229109",
-    "name": "פסטרמה הודו בפפריקה",
+    "barcode": "7290000318189",
+    "name": "פסטרמה ברביקיו יחיעם 300",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 29.9
+    "min_price": 26.9
    },
    {
-    "barcode": "7290013906205",
-    "name": "פסטרמה שום וצ'לי 400",
+    "barcode": "7290005996221",
+    "name": "פסטרמה של פעם דק דק יחיע",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 29.9
+    "min_price": 12.9
    },
    {
-    "barcode": "7290002900566",
-    "name": "פסטרמה ברביקיו 1.5%",
+    "barcode": "7290001567760",
+    "name": "פסטרמה של פעם 300גרם",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
-     "TIV_TAAM",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 29.9
+    "min_price": 26.9
    }
   ],
   "גבינה צהובה": [
+   {
+    "barcode": "7290102396665",
+    "name": "גבינה צהובה נעם דק דק 15% 200 גר",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290102397204",
+    "name": "גבינה צהובה נעם דק דק 22% 200 גר",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290014760448",
+    "name": "גבינה צהובה 22% 400 גרם",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 26.5
+   },
    {
     "barcode": "7290000046327",
     "name": "גבינה צהובה גלבוע 22",
@@ -889,15 +1019,6 @@
      "RAMI_LEVY"
     ],
     "min_price": 14.6
-   },
-   {
-    "barcode": "7290004122195",
-    "name": "גבינה צהובה גוש חלב",
-    "chains": [
-     "RAMI_LEVY",
-     "TIV_TAAM"
-    ],
-    "min_price": 15.3
    },
    {
     "barcode": "7290004122683",
@@ -909,28 +1030,13 @@
     "min_price": 18.9
    },
    {
-    "barcode": "7290110320867",
-    "name": "גבינה צהובה מגורדת ע",
+    "barcode": "7290004122195",
+    "name": "גבינה צהובה גוש חלב 200 גרם",
     "chains": [
-     "RAMI_LEVY"
+     "RAMI_LEVY",
+     "TIV_TAAM"
     ],
-    "min_price": 37.5
-   },
-   {
-    "barcode": "7290123640167",
-    "name": "גבינה צהובה 27% טום",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 9.9
-   },
-   {
-    "barcode": "7290019936190",
-    "name": "גבינה צהובה 28% רמי",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 14.0
+    "min_price": 15.3
    }
   ],
   "שניצל תירס 99 קלוריות": [
@@ -945,17 +1051,6 @@
   ],
   "פרמזן": [
    {
-    "barcode": "7290004122119",
-    "name": "פרמזן גבע מגורדת 23%",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 12.9
-   },
-   {
     "barcode": "7290002837022",
     "name": "פרמזן מגורד",
     "chains": [
@@ -964,41 +1059,53 @@
     "min_price": 95.0
    },
    {
+    "barcode": "7290009954395",
+    "name": "פרמזן מגורדת במשקל",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 155.0
+   },
+   {
+    "barcode": "7290004122119",
+    "name": "פתיתי פרמזן לפסטה 100 גרם",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 12.9
+   },
+   {
     "barcode": "7290014759985",
-    "name": "פלח פרמזן גבע 23% 20",
+    "name": "קולאז פרמזן גבע פלח 200 גר",
     "chains": [
      "RAMI_LEVY",
+     "SHUFERSAL",
      "TIV_TAAM",
      "YOHANANOF"
     ],
     "min_price": 27.9
    },
    {
-    "barcode": "7290019635482",
-    "name": "רוטב אלפרדו פרמז'ן 2",
+    "barcode": "7290016818611",
+    "name": "רביולי פרמזן וריקוטה300ג",
     "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
+     "KESHET",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 16.9
-   },
-   {
-    "barcode": "7290019635000",
-    "name": "פתיתי פרמזן 100 גר",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 12.5
+    "min_price": 19.9
    },
    {
     "barcode": "7290015039635",
-    "name": "גבינת פרמזן משולשים",
+    "name": "גבינת פרמזן 200ג אירו",
     "chains": [
      "OSHER_AD",
-     "RAMI_LEVY"
+     "RAMI_LEVY",
+     "SHUFERSAL"
     ],
     "min_price": 19.9
    }
@@ -1016,19 +1123,32 @@
   "שוקולד מריר": [
    {
     "barcode": "7290000178134",
-    "name": "שוקולד פרה מריר עלית",
+    "name": "שוקולד פרה מריר רביעייה 4*100 גר",
     "chains": [
      "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
+     "SHUFERSAL",
      "TIV_TAAM",
      "YOHANANOF"
     ],
     "min_price": 26.9
    },
    {
+    "barcode": "4823077626203",
+    "name": "שוקולד אורירי מריר 80 גר רושן",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 8.9
+   },
+   {
     "barcode": "7290000170077",
-    "name": "שוקולד פרה מריר מעול",
+    "name": "שוקולד פרה מריר 100 גרם",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -1050,34 +1170,24 @@
     "min_price": 7.9
    },
    {
-    "barcode": "7290100857045",
-    "name": "שוקולד מריר קפה 70%",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 13.9
-   },
-   {
-    "barcode": "4823077626203",
-    "name": "שוקולד מריר אוורירי",
+    "barcode": "7290119500536",
+    "name": "שוקולד מריר תפוז ללא סוכר טוסו 100 גר",
     "chains": [
      "KESHET",
      "RAMI_LEVY",
-     "TIV_TAAM",
-     "YOHANANOF"
+     "SHUFERSAL",
+     "TIV_TAAM"
     ],
-    "min_price": 8.9
+    "min_price": 15.9
    },
    {
-    "barcode": "7290105961525",
-    "name": "שוקולד מריר 80% ספלנ",
+    "barcode": "7290100857045",
+    "name": "שוקולד ספלנדיד מריר עם קפה 100 גר",
     "chains": [
      "KESHET",
      "OSHER_AD",
-     "TIV_TAAM"
+     "TIV_TAAM",
+     "YOHANANOF"
     ],
     "min_price": 13.9
    }
@@ -1085,7 +1195,7 @@
   "שוקולד מריר תפוז": [
    {
     "barcode": "5413121355075",
-    "name": "שוקולד מריר תפוז בלג",
+    "name": "שוקולד בלגי מריר עם תפוז פרסטיז 100 גרם",
     "chains": [
      "RAMI_LEVY",
      "TIV_TAAM"
@@ -1112,76 +1222,100 @@
   "גבינה לבנה": [
    {
     "barcode": "7290000474502",
-    "name": "גבינה לבנה 5% טרה 25",
+    "name": "גבינה לבנה 5% שומן 250 ג",
     "chains": [
      "KESHET",
      "RAMI_LEVY",
+     "SHUFERSAL",
      "TIV_TAAM",
      "YOHANANOF"
     ],
     "min_price": 5.87
    },
    {
-    "barcode": "7290000047942",
-    "name": "גבינה לבנה תנובה 9%",
-    "chains": [
-     "RAMI_LEVY",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 5.6
-   },
-   {
     "barcode": "7290000048185",
-    "name": "גבינה לבנה תנובה 5%",
+    "name": "גבינה לבנה 5% שומן 250 ג",
     "chains": [
      "RAMI_LEVY",
+     "SHUFERSAL",
      "TIV_TAAM",
      "YOHANANOF"
     ],
     "min_price": 5.8
    },
    {
-    "barcode": "7290004127800",
-    "name": "גבינה לבנה תנובה 5%",
+    "barcode": "7290102393268",
+    "name": "גבינה לבנה 5% שומן 750גר",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 17.4
+   },
+   {
+    "barcode": "7290010945481",
+    "name": "גבינה לבנה 5% שומן 500 ג",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 11.6
+   },
+   {
+    "barcode": "7290004127862",
+    "name": "גבינה לבנה 5% 750 גרם",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 17.4
+   },
+   {
+    "barcode": "7290000047942",
+    "name": "גבינה לבנה  5%  250 גר בדצ",
     "chains": [
      "RAMI_LEVY",
      "TIV_TAAM",
      "YOHANANOF"
     ],
-    "min_price": 11.6
-   },
-   {
-    "barcode": "7290010945481",
-    "name": "גבינה לבנה 5% טרה 50",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 11.6
-   },
-   {
-    "barcode": "7290102393268",
-    "name": "גבינה לבנה 5% טרה 75",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 17.4
+    "min_price": 5.6
    }
   ],
   "שקדים טבעיים": [
    {
     "barcode": "7290014094369",
-    "name": "שקד טבעי 200 גר' קופ",
+    "name": "שקד טבעי  200 גר קופסא ששון הקולה",
     "chains": [
      "KESHET",
      "RAMI_LEVY",
      "TIV_TAAM"
     ],
     "min_price": 21.9
+   },
+   {
+    "barcode": "7290019297628",
+    "name": "שקד טבעי 150 גרם ששון הקולה",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "7290000267104",
+    "name": "שקד טבעי גרוס100גשקדיה",
+    "chains": [
+     "KESHET",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
    },
    {
     "barcode": "7290013145079",
@@ -1193,15 +1327,6 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290019297628",
-    "name": "שקד טבעי 150 גרם ששו",
-    "chains": [
-     "RAMI_LEVY",
-     "TIV_TAAM"
-    ],
-    "min_price": 17.9
-   },
-   {
     "barcode": "7290006241214",
     "name": "שקדים טבעיים 200 גרם",
     "chains": [
@@ -1211,27 +1336,18 @@
     "min_price": 19.9
    },
    {
-    "barcode": "7290000267104",
-    "name": "שקד טבעי גרוס 100 גר",
+    "barcode": "7296073705956",
+    "name": "שקד טבעי 300 גרם",
     "chains": [
-     "KESHET",
-     "YOHANANOF"
+     "SHUFERSAL"
     ],
-    "min_price": 11.9
-   },
-   {
-    "barcode": "7290018566022",
-    "name": "שקד * טבעי 280 גר בק",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 20.2
+    "min_price": 28.9
    }
   ],
   "טבליות למדיח": [
    {
     "barcode": "7290108351910",
-    "name": "טבליות למדיח סנו ספא",
+    "name": "טבליות למדיח ספארק 30 יח",
     "chains": [
      "KESHET",
      "TIV_TAAM",
@@ -1258,6 +1374,14 @@
     "min_price": 39.9
    },
    {
+    "barcode": "7296073746423",
+    "name": "טבליות למדיח 50יח LU",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 41.9
+   },
+   {
     "barcode": "7290112005168",
     "name": "טבליות למדיח בניחוח",
     "chains": [
@@ -1272,26 +1396,19 @@
      "YOHANANOF"
     ],
     "min_price": 39.9
-   },
-   {
-    "barcode": "9005835314576",
-    "name": "טבליות למדיח קלרו 50",
-    "chains": [
-     "KESHET"
-    ],
-    "min_price": 64.9
    }
   ],
   "מלח למדיח": [
    {
-    "barcode": "8410104045111",
-    "name": "מלח למדיח פיניש 2 ק\"",
+    "barcode": "7290107280716",
+    "name": "מלח למדיח סנו בפארק 2 קג",
     "chains": [
      "KESHET",
-     "OSHER_AD",
+     "RAMI_LEVY",
+     "TIV_TAAM",
      "YOHANANOF"
     ],
-    "min_price": 14.9
+    "min_price": 10.9
    },
    {
     "barcode": "9005835312718",
@@ -1302,15 +1419,15 @@
     "min_price": 14.9
    },
    {
-    "barcode": "7290107280716",
-    "name": "סנו ספארק מלח למדיח",
+    "barcode": "8410104045111",
+    "name": "פיניש מלח למדיח 2 ק\"ג",
     "chains": [
      "KESHET",
-     "RAMI_LEVY",
-     "TIV_TAAM",
+     "OSHER_AD",
+     "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 10.9
+    "min_price": 14.9
    }
   ],
   "נוזל לניקוי אסלה": [
@@ -1358,6 +1475,30 @@
     "min_price": 37.9
    },
    {
+    "barcode": "7290005590214",
+    "name": "כרעיים עוף טרי ארוז שלי",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 31.9
+   },
+   {
+    "barcode": "7290000611518",
+    "name": "כרעיים עוף טרי תפ",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 31.9
+   },
+   {
+    "barcode": "7290009802214",
+    "name": "כרעי עוף טרי ארוז  עצמי",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 31.9
+   },
+   {
     "barcode": "7290002610175",
     "name": "כרעיים עוף ארוז קפוא",
     "chains": [
@@ -1372,33 +1513,33 @@
      "KESHET"
     ],
     "min_price": 24.9
-   },
-   {
-    "barcode": "16205",
-    "name": "כרעיים מתובלים",
-    "chains": [
-     "KESHET"
-    ],
-    "min_price": 69.0
-   },
-   {
-    "barcode": "401317",
-    "name": "כרעיים טרי מקוצב",
-    "chains": [
-     "YOHANANOF"
-    ],
-    "min_price": 35.9
-   },
-   {
-    "barcode": "7290000000468",
-    "name": "כרעיים עוף מעושנים",
-    "chains": [
-     "KESHET"
-    ],
-    "min_price": 65.0
    }
   ],
   "מלון": [
+   {
+    "barcode": "7290000965055",
+    "name": "מלון מובחר",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290000965086",
+    "name": "מלון קנרי",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000992839",
+    "name": "מלון גולדן סוויט",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
    {
     "barcode": "7290000000140",
     "name": "מלון",
@@ -1422,30 +1563,6 @@
      "RAMI_LEVY"
     ],
     "min_price": 7.9
-   },
-   {
-    "barcode": "7290009003109",
-    "name": "מלון",
-    "chains": [
-     "OSHER_AD"
-    ],
-    "min_price": 4.9
-   },
-   {
-    "barcode": "696",
-    "name": "מלון",
-    "chains": [
-     "YOHANANOF"
-    ],
-    "min_price": 4.9
-   },
-   {
-    "barcode": "7290009003116",
-    "name": "מלון ספרדי",
-    "chains": [
-     "OSHER_AD"
-    ],
-    "min_price": 4.9
    }
   ]
  },
