@@ -66,7 +66,7 @@ def tokens(s):
 
 
 def stem(w):
-    if len(w) > 4 and (w.endswith("ות") or w.endswith("ים")):
+    if len(w) > 4 and w.endswith(("ות", "ים", "ימ")):   # norm() הופך ם לסופית ל-מ, לכן גם "ימ"
         return w[:-2]
     if len(w) > 3 and w.endswith("ה"):
         return w[:-1]
@@ -75,7 +75,38 @@ def stem(w):
 
 def tok_eq(q, p):
     sq, sp = stem(q), stem(p)
-    return sq == sp or (len(sq) >= 4 and sp.startswith(sq))
+    return sq == sp or (len(sq) >= 4 and sp == sq + "ת")   # סמיכות: גבינה -> גבינת. בלי תחיליות רחבות (סוכר != סוכריות)
+
+
+PRODUCE_WORDS = ("עגבניה עגבניות מלפפון בצל גזר תפוח תפוחי אדמה בננה לימון תפוז אשכולית קלמנטינה מנדרינה אבוקדו חסה כרוב "
+                 "כרובית ברוקולי פלפל חציל קישוא דלעת בטטה פטרוזיליה כוסברה שמיר נענע שום אגס ענבים אפרסק נקטרינה שזיף "
+                 "מנגו אבטיח מלון תות רימון פומלה סלק צנון צנונית קולרבי תרד סלרי כרפס אננס קיווי תמר תאנה פטריות").split()
+PRODUCE_STEMS = {stem(norm(w)) for w in PRODUCE_WORDS}
+
+
+def is_produce(qtoks):
+    """שאילתה של פרי או ירק טרי (לפי המילה הראשונה, או 'תפוחי אדמה')."""
+    return bool(qtoks) and (stem(qtoks[0]) in PRODUCE_STEMS or "אדמה" in qtoks)
+
+
+def is_fresh_item(qtoks, info):
+    """מוצר במשקל שהשם שלו פשוט (עגבניה, בצל יבש...) ולא מוצר מעובד או אריזה."""
+    ptoks = tokens(info["name"])
+    if not info["weighted"] or not ptoks or len(ptoks) > len(qtoks) + 2:
+        return False
+    if "אדמה" in ptoks and "אדמה" not in qtoks:   # תפוחים != תפוחי אדמה
+        return False
+    return tok_eq(qtoks[0], ptoks[0])
+
+
+def short_msg(msg):
+    """מקצר הודעות שגיאה ארוכות של הסקרייפר, כדי שהדוח יהיה קריא."""
+    m = str(msg or "")
+    if "timeout" in m:
+        return "האתר לא ענה בזמן, כנראה חסום מחוץ לישראל"
+    if "Num of Files= 0" in m or "No files to download" in m:
+        return "האתר לא החזיר קבצים"
+    return m[-120:] if m else "אין פרטים"
 
 
 def name_matches(qtoks, ptoks):
@@ -213,15 +244,17 @@ def build_rows(queries, found, pinned):
         if not cands:
             missing.append(q)
             continue
-        ranked = sorted(cands.items(), key=lambda kv: rank(qtoks, kv[0], kv[1]), reverse=True)
+        fresh = {c: i for c, i in cands.items() if is_fresh_item(qtoks, i)} if is_produce(qtoks) else {}
+        use_fresh = bool(fresh) and pinned.get(q) not in cands
+        ranked = sorted(cands.items(), key=lambda kv: ((kv[0] in fresh) if use_fresh else 0,) + rank(qtoks, kv[0], kv[1]), reverse=True)
         candidates[q] = [{"barcode": c, "name": i["name"], "chains": sorted(i["chains"]),
                           "min_price": min(v["price"] for v in i["chains"].values())} for c, i in ranked[:6]]
         code = pinned.get(q) if pinned.get(q) in cands else ranked[0][0]
         info = cands[code]
-        if info["weighted"] and code not in pinned.values():
+        if use_fresh or (info["weighted"] and code not in pinned.values()):
             # פירות וירקות במשקל: הקוד שונה בין רשתות, לכן בוחרים בכל רשת בנפרד את המוצר הכי "פשוט"
             per_chain = {}
-            for c2, i2 in cands.items():
+            for c2, i2 in (fresh if use_fresh else cands).items():
                 if not i2["weighted"]:
                     continue
                 for chain, v in i2["chains"].items():
@@ -319,7 +352,7 @@ def work_chain(chain, queries, downloader, base_dir):
         ok, msg = downloader(chain, r"(?i)stores", wd)
         store_files = list_files(wd, "stores")
         if not store_files:
-            line["status"] = "לא ירדו קבצי סניפים (%s)" % (msg or "אין פרטים")
+            line["status"] = "לא ירדו קבצי סניפים (%s)" % short_msg(msg)
             return line, found
         stores, rank, sample = city_stores(store_files, area_groups())
         if not stores:
@@ -332,7 +365,7 @@ def work_chain(chain, queries, downloader, base_dir):
         ok, msg = downloader(chain, r"(?i)pricefull.*-0*(?:%s)-\d{8,}" % ids, wd)
         files = newest_per_store(list_files(wd, "pricefull"))
         if not files:
-            line["status"] = "יש %d סניפים באזור, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), msg or "אין פרטים")
+            line["status"] = "יש %d סניפים באזור, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), short_msg(msg))
             return line, found
         line["stores"] = len(files)
         for sid, path in files.items():
