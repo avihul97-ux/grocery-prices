@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-מושך מחירי סופרים בבית שמש מקבצי "שקיפות המחירים" של הרשתות,
+מושך מחירי סופרים ברמת גן והסביבה מקבצי "שקיפות המחירים" של הרשתות,
 ומתאים אותם למוצרים שהמשפחה קונה. התוצאה: prices.json (קטן) ו-report.md (דוח מה עבד).
 
 מריצים אוטומטית ב-GitHub Actions (ראו prices.yml). אין צורך לערוך כאן כלום:
 את רשימת המוצרים הבוט שולח לבד (WANTED_URL), ואת הרשתות אפשר לשנות במשתנה CHAINS.
+האזור: קודם סניפים ברמת גן ובגבעתיים. אם לרשת אין שם סניף, לוקחים סניפים מהסביבה הקרובה
+(בני ברק, תל אביב ועוד). אפשר לשנות במשתני הסביבה CITIES ו-NEAR_CITIES (שמות מופרדים בפסיק).
 """
 import datetime
 import gzip
@@ -23,7 +25,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 DEFAULT_CHAINS = ("SHUFERSAL,RAMI_LEVY,VICTORY_NEW_SOURCE,OSHER_AD,YOHANANOF,"
                   "YAYNO_BITAN_AND_CARREFOUR,HAZI_HINAM,TIV_TAAM,KESHET,MAHSANI_ASHUK_NEW_SOURCE")
-CITY_WORDS = ["בית שמש", "ביתשמש", "beit shemesh", "bet shemesh", "beth shemesh"]
+HOME_CITIES = "רמת גן,גבעתיים,ramat gan,givatayim"
+NEAR_CITIES = "בני ברק,תל אביב,קריית אונו,קרית אונו,אור יהודה,bnei brak,tel aviv"
+MAX_STORES = 6          # מקסימום סניפים לכל רשת (כדי לא להוריד עשרות קבצים גדולים)
+
+
+def area_words(env_name, default):
+    raw = os.environ.get(env_name) or default
+    return [w.strip() for w in raw.split(",") if w.strip()]
 
 CHAIN_NAMES = {
     "SHUFERSAL": "שופרסל", "RAMI_LEVY": "רמי לוי", "VICTORY": "ויקטורי", "VICTORY_NEW_SOURCE": "ויקטורי",
@@ -124,8 +133,8 @@ def to_float(x):
 
 
 # ---------------------------------------------------------------- stores in the city
-def city_stores(files):
-    """מחזיר {מספר סניף: שם} לסניפים שבעיר, ודוגמאות לדוח."""
+def city_stores(files, words):
+    """מחזיר {מספר סניף: שם} לסניפים שנמצאים באחת מהערים ב-words, ודוגמאות לדוח."""
     found, sample = {}, []
     for p in files:
         try:
@@ -139,7 +148,7 @@ def city_stores(files):
             blob = norm(" ".join([r.get("city", ""), r.get("address", ""), r.get("storename", "")]))
             if len(sample) < 4:
                 sample.append(" / ".join(x for x in [r.get("storename", ""), r.get("city", "")] if x))
-            if any(norm(w) in blob for w in CITY_WORDS):
+            if any(norm(w) in blob for w in words):
                 found[int(sid)] = r.get("storename") or r.get("address") or ("סניף " + sid)
     return found, sample
 
@@ -306,20 +315,26 @@ def work_chain(chain, queries, downloader, base_dir):
         if not store_files:
             line["status"] = "לא ירדו קבצי סניפים (%s)" % (msg or "אין פרטים")
             return line, found
-        stores, sample = city_stores(store_files)
+        stores, sample = city_stores(store_files, area_words("CITIES", HOME_CITIES))
+        near = False
+        if not stores:  # אין סניף ברמת גן/גבעתיים: מנסים את הסביבה הקרובה
+            stores, _ = city_stores(store_files, area_words("NEAR_CITIES", NEAR_CITIES))
+            near = bool(stores)
         if not stores:
-            line["status"] = "אין סניפים בבית שמש בקבצים. דוגמאות: " + "; ".join(sample)
+            line["status"] = "אין סניפים ברמת גן והסביבה בקבצים. דוגמאות: " + "; ".join(sample)
             return line, found
+        cap = int(os.environ.get("MAX_STORES") or MAX_STORES)
+        stores = dict(sorted(stores.items())[:cap])
         ids = "|".join(str(i) for i in sorted(stores))
         ok, msg = downloader(chain, r"(?i)pricefull.*-0*(?:%s)-\d{8,}" % ids, wd)
         files = newest_per_store(list_files(wd, "pricefull"))
         if not files:
-            line["status"] = "יש %d סניפים בעיר, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), msg or "אין פרטים")
+            line["status"] = "יש %d סניפים באזור, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), msg or "אין פרטים")
             return line, found
         line["stores"] = len(files)
         for sid, path in files.items():
             line["matched"] += collect(path, chain, stores.get(sid, "סניף %d" % sid), queries, found)
-        line["status"] = "תקין"
+        line["status"] = "תקין – סניפים מהסביבה הקרובה (אין ברמת גן/גבעתיים)" if near else "תקין"
     except Exception as e:  # רשת אחת שנכשלה לא מפילה את השאר
         line["status"] = "שגיאה: %s" % e
         traceback.print_exc()
@@ -345,7 +360,7 @@ def run(chains, wanted, pinned, downloader, base_dir):
 def write_report(path, report, wanted_source, wanted, missing, rows):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     lines = ["# דוח מחירים", "", "הרצה: %s" % now, "מקור רשימת המוצרים: %s" % wanted_source, "",
-             "| רשת | סטטוס | סניפים בבית שמש | מוצרים שנמצאו |", "|---|---|---|---|"]
+             "| רשת | סטטוס | סניפים באזור | מוצרים שנמצאו |", "|---|---|---|---|"]
     for r in report:
         lines.append("| %s | %s | %s | %s |" % (CHAIN_NAMES.get(r["chain"], r["chain"]), r["status"], r["stores"], r["matched"]))
     chains_ok = sorted({x["chain"] for x in rows})
@@ -366,7 +381,7 @@ def main(downloader=default_downloader, out_dir="."):
     if not rows and os.path.exists(os.path.join(out_dir, "prices.json")):
         print("לא נמצאו מחירים בהרצה הזו, משאיר את הקובץ הקודם")  # לא דורסים נתונים טובים בריקים
         return 0
-    out = {"updated": datetime.date.today().isoformat(), "city": "בית שמש",
+    out = {"updated": datetime.date.today().isoformat(), "city": "רמת גן והסביבה",
            "report": [{"chain": CHAIN_NAMES.get(r["chain"], r["chain"]), "status": r["status"], "stores": r["stores"]} for r in report],
            "prices": rows, "candidates": candidates, "missing": missing}
     with open(os.path.join(out_dir, "prices.json"), "w", encoding="utf-8") as f:
