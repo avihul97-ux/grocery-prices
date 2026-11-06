@@ -1,0 +1,1995 @@
+{
+ "updated": "2026-11-06",
+ "city": "בית שמש",
+ "report": [
+  {
+   "chain": "שופרסל",
+   "status": "לא ירדו קבצי סניפים (timeout after 300 seconds (probably blocked from outside Israel))",
+   "stores": 0
+  },
+  {
+   "chain": "רמי לוי",
+   "status": "תקין",
+   "stores": 3
+  },
+  {
+   "chain": "ויקטורי",
+   "status": "לא ירדו קבצי סניפים (Logger       2026-11-06 09:31:30,701 WARNING  [Thread-1 (_run)] logger.py:warning No files to download for file files_types=['PROMO_FILE', 'STORE_FILE', 'PRICE_FILE', 'PROMO_FULL_FILE', 'PRICE_FULL_FILE'],limit=None,store_id=None,when_date=None | Logger       2026-11-06 09:31:30,701 INFO     [Thread-1 (_run)] logger.py:info Found the following files in dumps/VictoryNewSource | Logger       2026-11-06 09:31:30,701 INFO     [Thread-1 (_run)] logger.py:info Folder dumps/VictoryNewSource: Num of Files= 0,Size= 0 MB | Logger       2026-11-06 09:31:30,702 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.VICTORY_NEW_SOURCE] Run #1 completed. Files found: 0, Total files: 0 | Logger       2026-11-06 09:31:30,702 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.VICTORY_NEW_SOURCE] Exiting loop: single pass completed | Logger       2026-11-06 09:31:30,702 INFO     [Thread-1 (_run)] logger.py:info done scraping DumpFolderNames.VICTORY_NEW_SOURCE)",
+   "stores": 0
+  },
+  {
+   "chain": "אושר עד",
+   "status": "תקין",
+   "stores": 1
+  },
+  {
+   "chain": "יוחננוף",
+   "status": "אין סניפים בבית שמש בקבצים. דוגמאות: יוחננוף מפוח / 0; יוחננוף ישן / 0; בילו / 0; אשדוד / 0",
+   "stores": 0
+  },
+  {
+   "chain": "יינות ביתן/קרפור",
+   "status": "לא ירדו קבצי סניפים (timeout after 300 seconds (probably blocked from outside Israel))",
+   "stores": 0
+  },
+  {
+   "chain": "חצי חינם",
+   "status": "לא ירדו קבצי סניפים (Logger       2026-11-06 09:31:45,869 WARNING  [Thread-1 (_run)] logger.py:warning No files to download for file files_types=['PROMO_FILE', 'STORE_FILE', 'PRICE_FILE', 'PROMO_FULL_FILE', 'PRICE_FULL_FILE'],limit=None,store_id=None,when_date=None | Logger       2026-11-06 09:31:45,869 INFO     [Thread-1 (_run)] logger.py:info Found the following files in dumps/HaziHinam | Logger       2026-11-06 09:31:45,869 INFO     [Thread-1 (_run)] logger.py:info Folder dumps/HaziHinam: Num of Files= 0,Size= 0 MB | Logger       2026-11-06 09:31:45,870 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.HAZI_HINAM] Run #1 completed. Files found: 0, Total files: 0 | Logger       2026-11-06 09:31:45,870 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.HAZI_HINAM] Exiting loop: single pass completed | Logger       2026-11-06 09:31:45,870 INFO     [Thread-1 (_run)] logger.py:info done scraping DumpFolderNames.HAZI_HINAM)",
+   "stores": 0
+  },
+  {
+   "chain": "טיב טעם",
+   "status": "אין סניפים בבית שמש בקבצים. דוגמאות: נתניה / 7400; אשדוד / 70; בת ים / 6200; אשקלון / 7100",
+   "stores": 0
+  },
+  {
+   "chain": "קשת טעמים",
+   "status": "אין סניפים בבית שמש בקבצים. דוגמאות: נהריה / 0; נשר / 0; הדר / 0; קרית אליעזר / 0",
+   "stores": 0
+  },
+  {
+   "chain": "מחסני השוק",
+   "status": "לא ירדו קבצי סניפים (Logger       2026-11-06 09:32:47,302 WARNING  [Thread-1 (_run)] logger.py:warning No files to download for file files_types=['PROMO_FILE', 'STORE_FILE', 'PRICE_FILE', 'PROMO_FULL_FILE', 'PRICE_FULL_FILE'],limit=None,store_id=None,when_date=None | Logger       2026-11-06 09:32:47,303 INFO     [Thread-1 (_run)] logger.py:info Found the following files in dumps/MahsaniAShukNewSource | Logger       2026-11-06 09:32:47,303 INFO     [Thread-1 (_run)] logger.py:info Folder dumps/MahsaniAShukNewSource: Num of Files= 0,Size= 0 MB | Logger       2026-11-06 09:32:47,304 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.MAHSANI_ASHUK_NEW_SOURCE] Run #1 completed. Files found: 0, Total files: 0 | Logger       2026-11-06 09:32:47,304 INFO     [Thread-1 (_run)] logger.py:info [DumpFolderNames.MAHSANI_ASHUK_NEW_SOURCE] Exiting loop: single pass completed | Logger       2026-11-06 09:32:47,304 INFO     [Thread-1 (_run)] logger.py:info done scraping DumpFolderNames.MAHSANI_ASHUK_NEW_SOURCE)",
+   "stores": 0
+  }
+ ],
+ "prices": [
+  {
+   "item": "חלב",
+   "product": "חלב תנובה נטול לקטוז",
+   "barcode": "7290116930695",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 8.1,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.1
+  },
+  {
+   "item": "חלב",
+   "product": "חלב תנובה נטול לקטוז",
+   "barcode": "7290116930695",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 8.1,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.1
+  },
+  {
+   "item": "ביצים",
+   "product": "ביצים 18יח בנוני M",
+   "barcode": "742259241925",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 20.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 20.0
+  },
+  {
+   "item": "לחם",
+   "product": "לחם סגנון אמריקה",
+   "barcode": "7290017947105",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 15.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.18
+  },
+  {
+   "item": "לחם",
+   "product": "לחם סגנון אמריקה",
+   "barcode": "7290017947105",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 15.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.18
+  },
+  {
+   "item": "קוטג",
+   "product": "קוטג' תנובה 5% שומן",
+   "barcode": "7290000041445",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.36
+  },
+  {
+   "item": "קוטג",
+   "product": "קוטג' תנובה 5% שומן",
+   "barcode": "7290000041445",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.36
+  },
+  {
+   "item": "גבינה צהובה",
+   "product": "גבינה צהובה גלבוע 22",
+   "barcode": "7290000046327",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 14.6,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.3
+  },
+  {
+   "item": "יוגורט",
+   "product": "יוגורט אקטיביה 3% 15",
+   "barcode": "7290112341686",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 22.2,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 18.5
+  },
+  {
+   "item": "יוגורט",
+   "product": "יוגורט אקטיביה 3% 15",
+   "barcode": "7290112341686",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 22.2,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 18.5
+  },
+  {
+   "item": "שמנת",
+   "product": "שמנת אורגינל של פעם",
+   "barcode": "72963753",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 4.5,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.25
+  },
+  {
+   "item": "שמנת",
+   "product": "שמנת אורגינל של פעם",
+   "barcode": "72963753",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 4.5,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.02
+  },
+  {
+   "item": "חמאה",
+   "product": "חמאה תנובה 200 גרם מ",
+   "barcode": "7290116932033",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.45
+  },
+  {
+   "item": "חמאה",
+   "product": "חמאה תנובה 200 גרם מ",
+   "barcode": "7290116932033",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.45
+  },
+  {
+   "item": "עוף",
+   "product": "עוף טחון בדץ",
+   "barcode": "7290003751112",
+   "chain": "רמי לוי",
+   "branch": "רמת בית שמש",
+   "price": 32.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.58
+  },
+  {
+   "item": "עוף",
+   "product": "עוף טחון בדץ",
+   "barcode": "7290003751112",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 29.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.98
+  },
+  {
+   "item": "בשר טחון",
+   "product": "בשר בקר טחון טרי (לק\"ג)",
+   "barcode": "7290001004746",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 64.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 64.9
+  },
+  {
+   "item": "בשר טחון",
+   "product": "בשר טחון מקפוא עטרה (לק\"ג)",
+   "barcode": "7290000902494",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 54.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 54.9
+  },
+  {
+   "item": "אורז",
+   "product": "אורז יסמין ששון הקול",
+   "barcode": "7290008597906",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 39.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.98
+  },
+  {
+   "item": "אורז",
+   "product": "אורז יסמין ששון הקול",
+   "barcode": "7290008597906",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 39.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.98
+  },
+  {
+   "item": "פסטה",
+   "product": "פסטה קרניים בינוניות",
+   "barcode": "7290000060828",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.98
+  },
+  {
+   "item": "פסטה",
+   "product": "פסטה קרניים בינוניות",
+   "barcode": "7290000060828",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.98
+  },
+  {
+   "item": "סוכר",
+   "product": "סוכרזית סטיוויה 120",
+   "barcode": "7290017599274",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 29.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 29.9
+  },
+  {
+   "item": "סוכר",
+   "product": "סוכרזית סטיוויה 120",
+   "barcode": "7290017599274",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 29.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 24.92
+  },
+  {
+   "item": "קמח",
+   "product": "קמח כוסמין לבן",
+   "barcode": "7290016144048",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 16.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 16.9
+  },
+  {
+   "item": "קמח",
+   "product": "קמח כוסמין לבן",
+   "barcode": "7290016144048",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 16.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 16.9
+  },
+  {
+   "item": "שמן",
+   "product": "שמן בריאות חמניות עץ",
+   "barcode": "7290000144467",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 14.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 14.9
+  },
+  {
+   "item": "שמן",
+   "product": "שמן בריאות חמניות עץ",
+   "barcode": "7290000144467",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 14.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 14.9
+  },
+  {
+   "item": "טחינה",
+   "product": "טחינה 500 גרם",
+   "barcode": "7290104066566",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 14.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.98
+  },
+  {
+   "item": "טחינה",
+   "product": "טחינה 500 גרם",
+   "barcode": "7290104066566",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 14.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.98
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניות חתוכות דק מו",
+   "barcode": "80042556",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.73
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניות חתוכות דק מו",
+   "barcode": "80042556",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.73
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפונים כבושים במי",
+   "barcode": "7290117268643",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.48
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפונים כבושים במי",
+   "barcode": "7290117268643",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.99
+  },
+  {
+   "item": "בצל",
+   "product": "בצל ירוק(שקית ) חסלט",
+   "barcode": "7290003996087",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "בצל",
+   "product": "בצל ירוק(שקית ) חסלט",
+   "barcode": "7290003996087",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "תפוחי אדמה",
+   "product": "בורקס תפוחי אדמה מעד",
+   "barcode": "7290000238180",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 21.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.74
+  },
+  {
+   "item": "גזר",
+   "product": "גזר (לק\"ג)",
+   "barcode": "7290000001102",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 5.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.0
+  },
+  {
+   "item": "גזר",
+   "product": "גזר (לק\"ג)",
+   "barcode": "7290009000313",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 3.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.9
+  },
+  {
+   "item": "בננות",
+   "product": "בננה (לק\"ג)",
+   "barcode": "7290000000134",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "בננות",
+   "product": "בננות (לק\"ג)",
+   "barcode": "7290009005417",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "תפוחים",
+   "product": "משקה קל תפוחים ספרינ",
+   "barcode": "7290019056607",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 7.2,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.8
+  },
+  {
+   "item": "תפוחים",
+   "product": "משקה קל תפוחים ספרינ",
+   "barcode": "7290019056607",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 7.2,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.8
+  },
+  {
+   "item": "לימון",
+   "product": "לימון בלאדי כבוש תבל",
+   "barcode": "7290010154012",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 15.7,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.28
+  },
+  {
+   "item": "לימון",
+   "product": "לימון בלאדי כבוש תבל",
+   "barcode": "7290010154012",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 15.7,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.28
+  },
+  {
+   "item": "נייר טואלט",
+   "product": "נייר טואלט לילי טריו",
+   "barcode": "7290111346828",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 39.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.08
+  },
+  {
+   "item": "נייר טואלט",
+   "product": "נייר טואלט לילי טריו",
+   "barcode": "7290111346828",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 39.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.08
+  },
+  {
+   "item": "נוזל כלים",
+   "product": "נוזל כלים סנו ספארק",
+   "barcode": "7290108350531",
+   "chain": "רמי לוי",
+   "branch": "בית שמש",
+   "price": 11.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 11.9
+  },
+  {
+   "item": "נוזל כלים",
+   "product": "נוזל כלים סנו ספארק",
+   "barcode": "7290108350531",
+   "chain": "אושר עד",
+   "branch": "בית שמש - גליל",
+   "price": 11.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 11.9
+  }
+ ],
+ "candidates": {
+  "חלב": [
+   {
+    "barcode": "7290116930695",
+    "name": "חלב תנובה נטול לקטוז",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.1
+   },
+   {
+    "barcode": "7290107932080",
+    "name": "חלב בבקבוק 3% מועשר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.5
+   },
+   {
+    "barcode": "7290107932134",
+    "name": "חלב בבקבוק 1% מועשר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.5
+   },
+   {
+    "barcode": "7290116936307",
+    "name": "חלב תנובה 3% שומן 2",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.4
+   },
+   {
+    "barcode": "7290110563462",
+    "name": "חלב טרי מועשר נטול ל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.1
+   },
+   {
+    "barcode": "7290116936291",
+    "name": "חלב תנובה 3% שומן 2",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.4
+   }
+  ],
+  "ביצים": [
+   {
+    "barcode": "742259241925",
+    "name": "ביצים 18יח בנוני M",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 20.0
+   },
+   {
+    "barcode": "742259241932",
+    "name": "ביצים 18יח גדול L",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.7
+   },
+   {
+    "barcode": "742259241949",
+    "name": "ביצים 30יח בינוני M",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 33.4
+   },
+   {
+    "barcode": "742259241895",
+    "name": "ביצים 12 יח בינוני M",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.4
+   },
+   {
+    "barcode": "742259241901",
+    "name": "ביצים 12 יח גדול L",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.5
+   },
+   {
+    "barcode": "7290020584045",
+    "name": "ביצים חופש 12 יחידות",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   }
+  ],
+  "לחם": [
+   {
+    "barcode": "7290017947105",
+    "name": "לחם סגנון אמריקה",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 15.9
+   },
+   {
+    "barcode": "7290020216410",
+    "name": "לחם ארטיזנל חיטה מלא",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290018500361",
+    "name": "לחם אחיד פרוס אנג'ל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.3
+   },
+   {
+    "barcode": "7290020216953",
+    "name": "לחם פרו 500 גר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.9
+   },
+   {
+    "barcode": "7290017304885",
+    "name": "לחם שיפון וחיטה מלאה",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 16.9
+   },
+   {
+    "barcode": "7290018540817",
+    "name": "לחם מחמצת ארטיזנל כו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 19.9
+   }
+  ],
+  "קוטג": [
+   {
+    "barcode": "7290000041445",
+    "name": "קוטג' תנובה 5% שומן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000041452",
+    "name": "קוטג' תנובה 9% שומן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290004127077",
+    "name": "קוטג' תנובה 3% שומן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290004127329",
+    "name": "קוטג' תנובה 5% שומן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290004127336",
+    "name": "קוטג' תנובה 9% שומן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290011194246",
+    "name": "קוטג' 5% שומן 250 גר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.6
+   }
+  ],
+  "גבינה צהובה": [
+   {
+    "barcode": "7290000046327",
+    "name": "גבינה צהובה גלבוע 22",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.6
+   },
+   {
+    "barcode": "7290000052311",
+    "name": "גבינה צהובה עמק 15%",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.4
+   },
+   {
+    "barcode": "7290000056753",
+    "name": "גבינה צהובה עמק 28%",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.1
+   },
+   {
+    "barcode": "7290000057088",
+    "name": "גבינה צהובה עמק 28%",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.4
+   },
+   {
+    "barcode": "7290000057118",
+    "name": "גבינה צהובה עמק 28%",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 25.5
+   },
+   {
+    "barcode": "7290004122195",
+    "name": "גבינה צהובה גוש חלב",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 15.3
+   }
+  ],
+  "יוגורט": [
+   {
+    "barcode": "7290112341686",
+    "name": "יוגורט אקטיביה 3% 15",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 22.2
+   },
+   {
+    "barcode": "7290012645389",
+    "name": "יוגורט ביו עיזים טבע",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.9
+   },
+   {
+    "barcode": "7290012645112",
+    "name": "יוגורט עיזים 750ג דל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "7290012645129",
+    "name": "יוגורט כבשים 750ג דל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "7290000408316",
+    "name": "יוגורט דנונה ביו לבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 3.8
+   },
+   {
+    "barcode": "7290002824466",
+    "name": "יוגורט דנונה ביו לבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 3.6
+   }
+  ],
+  "שמנת": [
+   {
+    "barcode": "72963753",
+    "name": "שמנת אורגינל של פעם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.5
+   },
+   {
+    "barcode": "7290000043814",
+    "name": "שמנת להקצפה השף הלבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.5
+   },
+   {
+    "barcode": "7290000056951",
+    "name": "שמנת לבישול השף הלבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.4
+   },
+   {
+    "barcode": "7290000058047",
+    "name": "שמנת להקצפה השף הלבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290004125455",
+    "name": "שמנת אורגינל 15% 200",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 2.8
+   },
+   {
+    "barcode": "7290004125509",
+    "name": "שמנת חמוצה 15% תנובה",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 1.9
+   }
+  ],
+  "חמאה": [
+   {
+    "barcode": "7290116932033",
+    "name": "חמאה תנובה 200 גרם מ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290004652173",
+    "name": "חמאה עלמה 200 גר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "839066008251",
+    "name": "חמאה נורמנדי מכבי 12",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "41844000016",
+    "name": "חמאה צרפתית פרימיום",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 22.5
+   },
+   {
+    "barcode": "7290014758544",
+    "name": "חמאה תנובה 200 גרם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290015039130",
+    "name": "חמאה לל\"ת מלח 200 גר",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 10.9
+   }
+  ],
+  "עוף": [
+   {
+    "barcode": "7290003751112",
+    "name": "עוף טחון בדץ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 29.9
+   },
+   {
+    "barcode": "7290008455800",
+    "name": "עוף טרי ארוז לנדאו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 29.9
+   },
+   {
+    "barcode": "7290001209349",
+    "name": "עוף טרי ארוז עטרה",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
+   },
+   {
+    "barcode": "7290019204800",
+    "name": "עוף טוב צונגו רצועות",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 43.9
+   },
+   {
+    "barcode": "7290018236086",
+    "name": "עוף טוב נקניקיות עוף",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 25.9
+   },
+   {
+    "barcode": "7290004194529",
+    "name": "עוף שלם טרי ארוז מחפ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 27.9
+   }
+  ],
+  "בשר טחון": [
+   {
+    "barcode": "7290001004746",
+    "name": "בשר בקר טחון טרי",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 64.9
+   },
+   {
+    "barcode": "7290000552934",
+    "name": "בשר הודו טחון טיבון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.1
+   },
+   {
+    "barcode": "1230000116466",
+    "name": "בשר טחון ביונד מיט 2",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 30.9
+   },
+   {
+    "barcode": "7290000902494",
+    "name": "בשר טחון מקפוא עטרה",
+    "chains": [
+     "OSHER_AD"
+    ],
+    "min_price": 54.9
+   },
+   {
+    "barcode": "7290003751211",
+    "name": "בשר טחון 500 גרם בדץ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 62.9
+   },
+   {
+    "barcode": "7290017890289",
+    "name": "בשר טחון וול דאן 500",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 53.9
+   }
+  ],
+  "אורז": [
+   {
+    "barcode": "7290008597906",
+    "name": "אורז יסמין ששון הקול",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 39.9
+   },
+   {
+    "barcode": "7290000211442",
+    "name": "אורז פרסי קלאסי סוגת",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290015347174",
+    "name": "אורז פרסי סלקטד 1קג",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "8901537024014",
+    "name": "אורז בסמטי וילי פוד",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.7
+   },
+   {
+    "barcode": "7290017068954",
+    "name": "אורז בסמטי בואקום 1",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.8
+   },
+   {
+    "barcode": "7290012309366",
+    "name": "אורז בסמטי שקדיה 5 ק",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 49.9
+   }
+  ],
+  "פסטה": [
+   {
+    "barcode": "7290000060828",
+    "name": "פסטה קרניים בינוניות",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000060248",
+    "name": "פסטה תלתלים אסם 500",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000060781",
+    "name": "פסטה מסולסלים אסם 50",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000060842",
+    "name": "פסטה צדפים גדולים אס",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290107871990",
+    "name": "פסטה צינורות אסם 500",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290119389889",
+    "name": "פסטה טרייה פטוצ'יני",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.9
+   }
+  ],
+  "סוכר": [
+   {
+    "barcode": "7290017599274",
+    "name": "סוכרזית סטיוויה 120",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 29.9
+   },
+   {
+    "barcode": "7290119382286",
+    "name": "סוכריות ממולאות לל\"ס",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290017599267",
+    "name": "סוכרזית סוכרלוז 120",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.5
+   },
+   {
+    "barcode": "7290119382293",
+    "name": "סוכריות בטעם תפוז לל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290019603566",
+    "name": "סוכריות טופי שמחות מ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "77245110610",
+    "name": "סוכריות בטעם מנטה לל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   }
+  ],
+  "קמח": [
+   {
+    "barcode": "7290016144048",
+    "name": "קמח כוסמין לבן",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 16.9
+   },
+   {
+    "barcode": "7290016144055",
+    "name": "קמח כוסמין 80%",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290016144024",
+    "name": "קמח כוסמין מלא 100%",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290016144109",
+    "name": "קמח פיצה מנופה נפלאו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290016144116",
+    "name": "קמח תופח נפלאות 1קג",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290018571699",
+    "name": "קמח שקדים 250 גרם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 22.9
+   }
+  ],
+  "שמן": [
+   {
+    "barcode": "7290000144467",
+    "name": "שמן בריאות חמניות עץ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290000144474",
+    "name": "שמן בריאות קנולה עץ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290016276534",
+    "name": "שמן קוקוס 330 מ\"ל שק",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 29.9
+   },
+   {
+    "barcode": "4710964104916",
+    "name": "שמן שומשום טהור 370",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 19.8
+   },
+   {
+    "barcode": "7290108359831",
+    "name": "שמן גוף בייבי כיף 50",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 19.9
+   },
+   {
+    "barcode": "89041081056",
+    "name": "שמן צ'ילי 185 מ'ל (כ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 10.9
+   }
+  ],
+  "טחינה": [
+   {
+    "barcode": "7290104066566",
+    "name": "טחינה 500 גרם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290119371839",
+    "name": "טחינה 100% שומשום את",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "7290001216057",
+    "name": "טחינה אלארז 1 ק\"ג",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
+   },
+   {
+    "barcode": "7290112966766",
+    "name": "טחינה באלדי חציל 350",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290015282604",
+    "name": "טחינה מיוחדת 200גר",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290105366047",
+    "name": "טחינה לבנה 400 גרם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   }
+  ],
+  "עגבניות": [
+   {
+    "barcode": "80042556",
+    "name": "עגבניות חתוכות דק מו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290000207438",
+    "name": "עגבניות קוביות485 ג'",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000208022",
+    "name": "עגבניות מרוסקות 600",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000208343",
+    "name": "עגבניות מרוסקות שום",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000000100",
+    "name": "עגבניה",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290000000641",
+    "name": "עגבניות מגי",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.9
+   }
+  ],
+  "מלפפונים": [
+   {
+    "barcode": "7290117268643",
+    "name": "מלפפונים כבושים במי",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "7290113196339",
+    "name": "מלפפונים קורנישונים",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290019333647",
+    "name": "מלפפונים במלח בינוני",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290019333715",
+    "name": "מלפפונים בחומץ גדולי",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290117905302",
+    "name": "מלפפונים חתוכים בחומ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290019997870",
+    "name": "מלפפונים במלח בתוספת",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.9
+   }
+  ],
+  "בצל": [
+   {
+    "barcode": "7290003996087",
+    "name": "בצל ירוק(שקית ) חסלט",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290015037525",
+    "name": "בצל ירוק שקית בדץ חס",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290005576089",
+    "name": "בצל ירוק גלאט עלים",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000001524",
+    "name": "בצל ירוק מהדרין קטיף",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290000000108",
+    "name": "בצל יבש",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.4
+   },
+   {
+    "barcode": "7290000000289",
+    "name": "בצל אדום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   }
+  ],
+  "תפוחי אדמה": [
+   {
+    "barcode": "7290000238180",
+    "name": "בורקס תפוחי אדמה מעד",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.9
+   },
+   {
+    "barcode": "7290006271648",
+    "name": "מיני בורקס תפוחי אדמ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
+   },
+   {
+    "barcode": "7290118669371",
+    "name": "מועך תפוחי אדמה מתכת",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290013117229",
+    "name": "בורקס פילו תפוחי אדמ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 20.9
+   },
+   {
+    "barcode": "7290002327042",
+    "name": "בורקס תפוחי אדמה שלו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 16.8
+   },
+   {
+    "barcode": "7290002327929",
+    "name": "מיני בורקס תפוחי אדמ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 16.8
+   }
+  ],
+  "גזר": [
+   {
+    "barcode": "7290000000102",
+    "name": "גזר ארוז",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 3.9
+   },
+   {
+    "barcode": "7290000000249",
+    "name": "גזר בתפזורת",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290121137300",
+    "name": "גזר חתונה טבעות פיקנ",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290000104706",
+    "name": "גזר גמדי סנפרוסט 800",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "7290018394380",
+    "name": "גזר צבעוני חוות תקוע",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290018564004",
+    "name": "גזר גמדי רמילוי 800",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.1
+   }
+  ],
+  "בננות": [
+   {
+    "barcode": "7290000000134",
+    "name": "בננה",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290119670451",
+    "name": "בננה ציפס 200 גר בקו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.0
+   },
+   {
+    "barcode": "7290120860766",
+    "name": "בננה מסוכרת 200 גרם",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "7290009005417",
+    "name": "בננות",
+    "chains": [
+     "OSHER_AD"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290001775806",
+    "name": "בננה צ'יפס",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 39.0
+   },
+   {
+    "barcode": "7290009069440",
+    "name": "בננה ציפס במשקל",
+    "chains": [
+     "OSHER_AD"
+    ],
+    "min_price": 49.0
+   }
+  ],
+  "תפוחים": [
+   {
+    "barcode": "7290019056607",
+    "name": "משקה קל תפוחים ספרינ",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.2
+   },
+   {
+    "barcode": "7290019056669",
+    "name": "משקה קל תפוחים דיאט",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.2
+   },
+   {
+    "barcode": "7290013927101",
+    "name": "אחוה עוגה תפוחים ללא",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.8
+   },
+   {
+    "barcode": "7290018563267",
+    "name": "תרכיז תפוחים לל\"תס 1",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 29.8
+   },
+   {
+    "barcode": "7290117904947",
+    "name": "שקדיה חומץ תפוחים 75",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "43427199018",
+    "name": "חומץ תפוחים אורגני 5",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 21.9
+   }
+  ],
+  "לימון": [
+   {
+    "barcode": "7290010154012",
+    "name": "לימון בלאדי כבוש תבל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 15.7
+   },
+   {
+    "barcode": "7290000000117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000000517",
+    "name": "לימון ליים",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290000001117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.0
+   },
+   {
+    "barcode": "7290000000232",
+    "name": "לימון סיני",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290002345152",
+    "name": "לימון כבוש 250 גרם ר",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 13.9
+   }
+  ],
+  "נייר טואלט": [
+   {
+    "barcode": "7290111346828",
+    "name": "נייר טואלט לילי טריו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 39.9
+   },
+   {
+    "barcode": "7290108359213",
+    "name": "נייר טואלט סופט 18 ג",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 31.9
+   },
+   {
+    "barcode": "7290111346811",
+    "name": "נייר טואלט לילי טריו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 39.9
+   },
+   {
+    "barcode": "7290000262161",
+    "name": "נייר טואלט מולט 40 ל",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 34.5
+   },
+   {
+    "barcode": "7290000187853",
+    "name": "נייר טואלט קלאסיק לב",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 49.9
+   },
+   {
+    "barcode": "7290000262239",
+    "name": "נייר טואלט מולט 48 ג",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 39.9
+   }
+  ],
+  "נוזל כלים": [
+   {
+    "barcode": "7290108350531",
+    "name": "נוזל כלים סנו ספארק",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "8001090184375",
+    "name": "נוזל כלים פיירי אורג",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 15.9
+   },
+   {
+    "barcode": "7290019841777",
+    "name": "נוזל כלים 24% 750מל",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290019841784",
+    "name": "נוזל כלים 24% 750מל",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290019014768",
+    "name": "נוזל לניקוי כלים 24%",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 14.9
+   },
+   {
+    "barcode": "7290001305188",
+    "name": "נוזל לניקוי כלים ברי",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.9
+   }
+  ]
+ },
+ "missing": []
+}
