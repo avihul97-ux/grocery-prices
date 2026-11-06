@@ -17,6 +17,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import traceback
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -89,12 +90,22 @@ def is_produce(qtoks):
     return bool(qtoks) and (stem(qtoks[0]) in PRODUCE_STEMS or "אדמה" in qtoks)
 
 
+PROCESSED = {"קפוא", "מוקפא", "בגריל", "גריל", "צלוי", "מעושן", "מבושל", "מטוגן", "מתובל", "ממולא", "שניצל", "קבב", "נקניק", "מרינדה"}
+
+
+def processed(qtoks, ptoks):
+    """האם בשם יש מילה של מוצר מעובד שלא ביקשו (חזה עוף קפוא, חזה עוף בגריל...)."""
+    return any(norm(w) in PROCESSED and norm(w) not in qtoks for w in ptoks)
+
+
 def is_fresh_item(qtoks, info):
     """מוצר במשקל שהשם שלו פשוט (עגבניה, בצל יבש...) ולא מוצר מעובד או אריזה."""
     ptoks = tokens(info["name"])
     if not info["weighted"] or not ptoks or len(ptoks) > len(qtoks) + 2:
         return False
     if "אדמה" in ptoks and "אדמה" not in qtoks:   # תפוחים != תפוחי אדמה
+        return False
+    if processed(qtoks, ptoks):
         return False
     return tok_eq(qtoks[0], ptoks[0])
 
@@ -223,6 +234,8 @@ def collect(path, chain, store_name, queries, found):
             weighted = r.get("bisweighted", "0").strip() in ("1", "true", "True")
             c = found.setdefault(q, {}).setdefault(code, {"name": name, "weighted": weighted, "chains": {}, "stores": set()})
             c["stores"].add((chain, store_name))
+            if len(name) > len(c["name"]):
+                c["name"] = name
             unit = to_float(r.get("unitofmeasureprice")) or price
             cur = c["chains"].get(chain)
             if cur is None or price < cur["price"]:
@@ -255,7 +268,7 @@ def build_rows(queries, found, pinned):
             # פירות וירקות במשקל: הקוד שונה בין רשתות, לכן בוחרים בכל רשת בנפרד את המוצר הכי "פשוט"
             per_chain = {}
             for c2, i2 in (fresh if use_fresh else cands).items():
-                if not i2["weighted"]:
+                if not i2["weighted"] or processed(qtoks, tokens(i2["name"])):
                     continue
                 for chain, v in i2["chains"].items():
                     key = (1 if tokens(i2["name"]) and tok_eq(qtoks[0], tokens(i2["name"])[0]) else 0,
@@ -342,6 +355,23 @@ def merge(found, part):
             dst = found.setdefault(q, {}).setdefault(code, {"name": info["name"], "weighted": info["weighted"], "chains": {}, "stores": set()})
             dst["chains"].update(info["chains"])
             dst["stores"] |= info["stores"]
+            if len(info["name"]) > len(dst["name"]):
+                dst["name"] = info["name"]
+
+
+RETRIES = 3        # אתרי הרשתות לפעמים לא עונים בפעם הראשונה (כך קרה לשופרסל), לכן מנסים שוב
+RETRY_SLEEP = 10
+
+
+def download_with_retries(downloader, chain, regex, wd, got_files):
+    ok, msg = False, ""
+    for i in range(RETRIES):
+        ok, msg = downloader(chain, regex, wd)
+        if got_files():
+            break
+        if i + 1 < RETRIES:
+            time.sleep(RETRY_SLEEP)
+    return ok, msg
 
 
 def work_chain(chain, queries, downloader, base_dir):
@@ -349,7 +379,7 @@ def work_chain(chain, queries, downloader, base_dir):
     found = {}
     wd = os.path.join(base_dir, chain)
     try:
-        ok, msg = downloader(chain, r"(?i)stores", wd)
+        ok, msg = download_with_retries(downloader, chain, r"(?i)stores", wd, lambda: bool(list_files(wd, "stores")))
         store_files = list_files(wd, "stores")
         if not store_files:
             line["status"] = "לא ירדו קבצי סניפים (%s)" % short_msg(msg)
@@ -362,7 +392,8 @@ def work_chain(chain, queries, downloader, base_dir):
         keep = sorted(stores, key=lambda x: (rank[x], x))[:cap]   # קודם הערים הראשונות ברשימה
         stores = {k: stores[k] for k in keep}
         ids = "|".join(str(i) for i in sorted(stores))
-        ok, msg = downloader(chain, r"(?i)pricefull.*-0*(?:%s)-\d{8,}" % ids, wd)
+        ok, msg = download_with_retries(downloader, chain, r"(?i)pricefull.*-0*(?:%s)-\d{8,}" % ids, wd,
+                                        lambda: bool(newest_per_store(list_files(wd, "pricefull"))))
         files = newest_per_store(list_files(wd, "pricefull"))
         if not files:
             line["status"] = "יש %d סניפים באזור, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), short_msg(msg))
@@ -408,15 +439,55 @@ def write_report(path, report, wanted_source, wanted, missing, rows):
     print("\n".join(lines))
 
 
+MAX_STALE_DAYS = 4      # רשת שנכשלה בהרצה: משאירים את המחירים הקודמים שלה עד 4 ימים (מסומנים ב-as_of)
+
+
+def carry_over(rows, report, prev, wanted_items, today):
+    """אם רשת לא נגישה בהרצה הזו אבל היו לה מחירים בהרצה קודמת, משאירים אותם (עד MAX_STALE_DAYS)."""
+    have = {(r["item"], r["chain"]) for r in rows}
+    wanted = {norm(w) for w in wanted_items}
+    prev_day = prev.get("updated", "")
+    for line in report:
+        if line.get("stores"):
+            continue
+        disp = CHAIN_NAMES.get(line["chain"], line["chain"])
+        kept, oldest = 0, None
+        for r in prev.get("prices", []):
+            if r.get("chain") != disp or norm(r.get("item", "")) not in wanted or (r["item"], disp) in have:
+                continue
+            as_of = r.get("as_of") or prev_day
+            try:
+                age = (today - datetime.date.fromisoformat(as_of)).days
+            except ValueError:
+                continue
+            if age > MAX_STALE_DAYS:
+                continue
+            rows.append(dict(r, as_of=as_of))
+            have.add((r["item"], disp))
+            kept += 1
+            oldest = as_of if oldest is None or as_of < oldest else oldest
+        if kept:
+            line["status"] += " | נשארו %d מחירים ישנים מ-%s" % (kept, oldest)
+    return rows
+
+
 def main(downloader=default_downloader, out_dir="."):
     chains = [c.strip() for c in (os.environ.get("CHAINS") or DEFAULT_CHAINS).split(",") if c.strip()]
     wanted, pinned, source = fetch_wanted()
     base = tempfile.mkdtemp(prefix="prices_")
     rows, candidates, missing, report = run(chains, wanted, pinned, downloader, base)
-    write_report(os.path.join(out_dir, "report.md"), report, source, wanted, missing, rows)
-    if not rows and os.path.exists(os.path.join(out_dir, "prices.json")):
+    prices_path = os.path.join(out_dir, "prices.json")
+    if not rows and os.path.exists(prices_path):
+        write_report(os.path.join(out_dir, "report.md"), report, source, wanted, missing, rows)
         print("לא נמצאו מחירים בהרצה הזו, משאיר את הקובץ הקודם")  # לא דורסים נתונים טובים בריקים
         return 0
+    if os.path.exists(prices_path):
+        try:
+            with open(prices_path, encoding="utf-8") as f:
+                rows = carry_over(rows, report, json.load(f), wanted, datetime.date.today())
+        except Exception:
+            traceback.print_exc()
+    write_report(os.path.join(out_dir, "report.md"), report, source, wanted, missing, rows)
     out = {"updated": datetime.date.today().isoformat(), "city": "רמת גן והסביבה",
            "report": [{"chain": CHAIN_NAMES.get(r["chain"], r["chain"]), "status": r["status"], "stores": r["stores"]} for r in report],
            "prices": rows, "candidates": candidates, "missing": missing}
