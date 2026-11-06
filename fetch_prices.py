@@ -5,8 +5,8 @@
 
 מריצים אוטומטית ב-GitHub Actions (ראו prices.yml). אין צורך לערוך כאן כלום:
 את רשימת המוצרים הבוט שולח לבד (WANTED_URL), ואת הרשתות אפשר לשנות במשתנה CHAINS.
-האזור: קודם סניפים ברמת גן ובגבעתיים. אם לרשת אין שם סניף, לוקחים סניפים מהסביבה הקרובה
-(בני ברק, תל אביב ועוד). אפשר לשנות במשתני הסביבה CITIES ו-NEAR_CITIES (שמות מופרדים בפסיק).
+האזור: רמת גן, גבעתיים, בני ברק ותל אביב. אם יש הרבה סניפים ברשת, נלקחים קודם אלה שבערים
+הראשונות ברשימה. אפשר לשנות במשתנה הסביבה CITIES (ערים מופרדות בפסיק, ניסוחים שונים של אותה עיר בלוכסן).
 """
 import datetime
 import gzip
@@ -25,14 +25,17 @@ from concurrent.futures import ThreadPoolExecutor
 
 DEFAULT_CHAINS = ("SHUFERSAL,RAMI_LEVY,VICTORY_NEW_SOURCE,OSHER_AD,YOHANANOF,"
                   "YAYNO_BITAN_AND_CARREFOUR,HAZI_HINAM,TIV_TAAM,KESHET,MAHSANI_ASHUK_NEW_SOURCE")
-HOME_CITIES = "רמת גן,גבעתיים,ramat gan,givatayim"
-NEAR_CITIES = "בני ברק,תל אביב,קריית אונו,קרית אונו,אור יהודה,bnei brak,tel aviv"
-MAX_STORES = 6          # מקסימום סניפים לכל רשת (כדי לא להוריד עשרות קבצים גדולים)
+# סדר הערים הוא גם סדר העדיפות כשיש לרשת יותר סניפים מהמותר (MAX_STORES)
+HOME_CITIES = "רמת גן/ramat gan,גבעתיים/givatayim,בני ברק/bnei brak,תל אביב/tel aviv"
+MAX_STORES = 8          # מקסימום סניפים לכל רשת (כדי לא להוריד עשרות קבצים גדולים)
 
 
-def area_words(env_name, default):
-    raw = os.environ.get(env_name) or default
-    return [w.strip() for w in raw.split(",") if w.strip()]
+def area_groups():
+    """[[ניסוחים של עיר 1], [ניסוחים של עיר 2], ...] לפי סדר העדיפות."""
+    raw = os.environ.get("CITIES") or HOME_CITIES
+    groups = [[v.strip() for v in g.split("/") if v.strip()] for g in raw.split(",")]
+    return [g for g in groups if g]
+
 
 CHAIN_NAMES = {
     "SHUFERSAL": "שופרסל", "RAMI_LEVY": "רמי לוי", "VICTORY": "ויקטורי", "VICTORY_NEW_SOURCE": "ויקטורי",
@@ -133,9 +136,9 @@ def to_float(x):
 
 
 # ---------------------------------------------------------------- stores in the city
-def city_stores(files, words):
-    """מחזיר {מספר סניף: שם} לסניפים שנמצאים באחת מהערים ב-words, ודוגמאות לדוח."""
-    found, sample = {}, []
+def city_stores(files, groups):
+    """מחזיר ({מספר סניף: שם}, {מספר סניף: דירוג עיר}, דוגמאות) לסניפים שבאחת הערים."""
+    found, rank, sample = {}, {}, []
     for p in files:
         try:
             recs = iter_records(p, {"store", "branch"})
@@ -148,9 +151,12 @@ def city_stores(files, words):
             blob = norm(" ".join([r.get("city", ""), r.get("address", ""), r.get("storename", "")]))
             if len(sample) < 4:
                 sample.append(" / ".join(x for x in [r.get("storename", ""), r.get("city", "")] if x))
-            if any(norm(w) in blob for w in words):
-                found[int(sid)] = r.get("storename") or r.get("address") or ("סניף " + sid)
-    return found, sample
+            for k, g in enumerate(groups):
+                if any(norm(w) in blob for w in g):
+                    found[int(sid)] = r.get("storename") or r.get("address") or ("סניף " + sid)
+                    rank[int(sid)] = k
+                    break
+    return found, rank, sample
 
 
 def price_file_info(path):
@@ -315,16 +321,13 @@ def work_chain(chain, queries, downloader, base_dir):
         if not store_files:
             line["status"] = "לא ירדו קבצי סניפים (%s)" % (msg or "אין פרטים")
             return line, found
-        stores, sample = city_stores(store_files, area_words("CITIES", HOME_CITIES))
-        near = False
-        if not stores:  # אין סניף ברמת גן/גבעתיים: מנסים את הסביבה הקרובה
-            stores, _ = city_stores(store_files, area_words("NEAR_CITIES", NEAR_CITIES))
-            near = bool(stores)
+        stores, rank, sample = city_stores(store_files, area_groups())
         if not stores:
             line["status"] = "אין סניפים ברמת גן והסביבה בקבצים. דוגמאות: " + "; ".join(sample)
             return line, found
         cap = int(os.environ.get("MAX_STORES") or MAX_STORES)
-        stores = dict(sorted(stores.items())[:cap])
+        keep = sorted(stores, key=lambda x: (rank[x], x))[:cap]   # קודם הערים הראשונות ברשימה
+        stores = {k: stores[k] for k in keep}
         ids = "|".join(str(i) for i in sorted(stores))
         ok, msg = downloader(chain, r"(?i)pricefull.*-0*(?:%s)-\d{8,}" % ids, wd)
         files = newest_per_store(list_files(wd, "pricefull"))
@@ -334,7 +337,7 @@ def work_chain(chain, queries, downloader, base_dir):
         line["stores"] = len(files)
         for sid, path in files.items():
             line["matched"] += collect(path, chain, stores.get(sid, "סניף %d" % sid), queries, found)
-        line["status"] = "תקין – סניפים מהסביבה הקרובה (אין ברמת גן/גבעתיים)" if near else "תקין"
+        line["status"] = "תקין"
     except Exception as e:  # רשת אחת שנכשלה לא מפילה את השאר
         line["status"] = "שגיאה: %s" % e
         traceback.print_exc()
