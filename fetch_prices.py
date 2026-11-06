@@ -79,7 +79,9 @@ def stem(w):
 
 def tok_eq(q, p):
     sq, sp = stem(q), stem(p)
-    return sq == sp or (len(sq) >= 4 and sp == sq + "ת")   # סמיכות: גבינה -> גבינת. בלי תחיליות רחבות (סוכר != סוכריות)
+    if sq == sp or (len(sq) >= 4 and sp == sq + "ת"):   # סמיכות: גבינה -> גבינת. בלי תחיליות רחבות (סוכר != סוכריות)
+        return True
+    return len(sq) >= 3 and q.endswith("ימ") and sp == sq + "י"   # שאילתה ברבים ושם מוצר בסמיכות: ביצים -> ביצי חופש
 
 
 PRODUCE_WORDS = ("עגבניה עגבניות מלפפון בצל גזר תפוח תפוחי אדמה בננה לימון תפוז אשכולית קלמנטינה מנדרינה אבוקדו חסה כרוב "
@@ -221,8 +223,15 @@ def newest_per_store(files):
 
 
 # ---------------------------------------------------------------- prices
-def collect(path, chain, store_name, queries, found, alts=None):
-    """קורא קובץ מחירים של סניף ורושם מועמדים לכל מוצר מבוקש."""
+def index_add(index, code, name, price, unit_raw, weighted, store):
+    """רושם בקטלוג של הרשת (לפי ברקוד) את המחיר הזול ביותר שנראה בסניפים שנקראו."""
+    cur = index.get(code)
+    if cur is None or price < cur["price"]:
+        index[code] = {"name": name, "price": price, "unit": unit_raw or price, "unit_raw": unit_raw, "weighted": weighted, "store": store}
+
+
+def collect(path, chain, store_name, queries, found, alts=None, index=None):
+    """קורא קובץ מחירים של סניף ורושם מועמדים לכל מוצר מבוקש (ואת כל הקטלוג ב-index, להתאמה לפי ברקוד)."""
     n = 0
     for r in iter_records(path, {"item", "product"}):
         price = to_float(r.get("itemprice") or r.get("price"))
@@ -230,11 +239,13 @@ def collect(path, chain, store_name, queries, found, alts=None):
         code = r.get("itemcode") or r.get("itemid") or ""
         if not (name and code and 0 < price < 3000):
             continue
+        weighted = r.get("bisweighted", "0").strip() in ("1", "true", "True")
+        if index is not None:
+            index_add(index, code, name, price, to_float(r.get("unitofmeasureprice")), weighted, store_name)
         ptoks = tokens(name)
         for q, qtoks in queries.items():
             if not (name_matches(qtoks, ptoks) or any(name_matches(v, ptoks) for v in (alts or {}).get(q, []))):
                 continue
-            weighted = r.get("bisweighted", "0").strip() in ("1", "true", "True")
             c = found.setdefault(q, {}).setdefault(code, {"name": name, "weighted": weighted, "chains": {}, "stores": set()})
             c["stores"].add((chain, store_name))
             if len(name) > len(c["name"]):
@@ -416,19 +427,19 @@ def download_with_retries(downloader, chain, regex, wd, got_files):
 
 
 def work_chain(chain, queries, downloader, base_dir, alts=None):
-    line = {"chain": chain, "status": "", "stores": 0, "matched": 0}
-    found = {}
+    line = {"chain": chain, "status": "", "stores": 0, "matched": 0, "catalog": 0}
+    found, index = {}, {}
     wd = os.path.join(base_dir, chain)
     try:
         ok, msg = download_with_retries(downloader, chain, r"(?i)stores", wd, lambda: bool(list_files(wd, "stores")))
         store_files = list_files(wd, "stores")
         if not store_files:
             line["status"] = "לא ירדו קבצי סניפים (%s)" % short_msg(msg)
-            return line, found
+            return line, found, index
         stores, rank, sample = city_stores(store_files, area_groups())
         if not stores:
             line["status"] = "אין סניפים ברמת גן והסביבה בקבצים. דוגמאות: " + "; ".join(sample)
-            return line, found
+            return line, found, index
         cap = int(os.environ.get("MAX_STORES") or MAX_STORES)
         keep = sorted(stores, key=lambda x: (rank[x], x))[:cap]   # קודם הערים הראשונות ברשימה
         stores = {k: stores[k] for k in keep}
@@ -438,15 +449,73 @@ def work_chain(chain, queries, downloader, base_dir, alts=None):
         files = newest_per_store(list_files(wd, "pricefull"))
         if not files:
             line["status"] = "יש %d סניפים באזור, אבל לא ירדו קבצי מחירים (%s)" % (len(stores), short_msg(msg))
-            return line, found
+            return line, found, index
         line["stores"] = len(files)
         for sid, path in files.items():
-            line["matched"] += collect(path, chain, stores.get(sid, "סניף %d" % sid), queries, found, alts)
+            line["matched"] += collect(path, chain, stores.get(sid, "סניף %d" % sid), queries, found, alts, index)
+        line["catalog"] = len(index)
         line["status"] = "תקין"
     except Exception as e:  # רשת אחת שנכשלה לא מפילה את השאר
         line["status"] = "שגיאה: %s" % e
         traceback.print_exc()
-    return line, found
+    return line, found, index
+
+
+SHARE_TOP = 8      # כמה מועמדים לכל מוצר מחפשים גם ברשתות האחרות (לפי ברקוד)
+NEAR = {}          # מוצר שלא נמצא באף רשת -> שמות דומים שנראו בקטלוגים (לדוח בלבד)
+
+
+def is_gtin(code):
+    return bool(re.fullmatch(r"\d{8,14}", str(code)))
+
+
+def share_barcodes(queries, found, pinned, indexes, alts):
+    """אותו ברקוד הוא אותו מוצר בכל רשת, גם אם השם שונה (ביצי חופש / ביצים L). לכל מועמד מוביל מחפשים את הברקוד
+    בקטלוג המלא של כל רשת. ברקודים פנימיים קצרים (בשר, מעדנייה, ירקות) שונים בין רשתות ולכן לא נבדקים."""
+    for q, qtoks in queries.items():
+        cands = found.get(q)
+        if not cands:
+            continue
+        ranked = sorted(cands.items(), key=lambda kv: rank(qtoks, kv[0], kv[1], (alts or {}).get(q)), reverse=True)
+        codes = [c for c, _ in ranked[:SHARE_TOP]]
+        if pinned.get(q) in cands and pinned[q] not in codes:
+            codes.append(pinned[q])
+        for code in codes:
+            info = cands[code]
+            if info["weighted"] or not is_gtin(code):
+                continue
+            for chain, idx in indexes.items():
+                v = idx.get(code)
+                if v is None or chain in info["chains"] or v["weighted"]:
+                    continue
+                info["chains"][chain] = {"price": v["price"], "unit": v["unit"], "unit_raw": v["unit_raw"], "store": v["store"], "name": v["name"]}
+                info["stores"].add((chain, v["store"]))
+
+
+def near_names(missing, indexes, limit=4):
+    """למוצרים שלא נמצאו: שמות מהקטלוגים שמכילים את תחילת המילה העיקרית. עוזר להבין איך הרשת קוראת למוצר."""
+    out = {}
+    for q in missing:
+        toks = [t for t in tokens(q) if len(t) >= 3 and not re.search(r"[a-z]", t)]
+        if not toks:
+            continue
+        key = stem(max(toks, key=len))
+        if len(key) < 3:
+            continue
+        seen, hits = set(), []
+        for chain, idx in indexes.items():
+            for v in idx.values():
+                nm = norm(v["name"])
+                if key in nm and nm not in seen:
+                    seen.add(nm)
+                    hits.append("%s (%s)" % (v["name"], CHAIN_NAMES.get(chain, chain)))
+                    if len(hits) >= limit:
+                        break
+            if len(hits) >= limit:
+                break
+        if hits:
+            out[q] = hits
+    return out
 
 
 def run(chains, wanted, pinned, downloader, base_dir, alts=None):
@@ -457,25 +526,32 @@ def run(chains, wanted, pinned, downloader, base_dir, alts=None):
         futs = {c: ex.submit(work_chain, c, queries, downloader, base_dir, alt_toks) for c in chains}
         for c, f in futs.items():
             results[c] = f.result()
-    found, report = {}, []
+    found, report, indexes = {}, [], {}
     for c in chains:          # מיזוג בסדר קבוע, כדי שהתוצאה תהיה זהה בכל הרצה
-        line, part = results[c]
+        line, part, idx = results[c]
         report.append(line)
         merge(found, part)
+        indexes[c] = idx
+    share_barcodes(queries, found, pinned, indexes, alt_toks)
     rows, candidates, missing = build_rows(queries, found, pinned, alt_toks)
+    NEAR.clear()
+    NEAR.update(near_names(missing, indexes))
     return rows, candidates, missing, report
 
 
 def write_report(path, report, wanted_source, wanted, missing, rows):
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     lines = ["# דוח מחירים", "", "הרצה: %s" % now, "מקור רשימת המוצרים: %s" % wanted_source, "",
-             "| רשת | סטטוס | סניפים באזור | מוצרים שנמצאו |", "|---|---|---|---|"]
+             "| רשת | סטטוס | סניפים באזור | מוצרים בקבצים | התאמות לרשימה |", "|---|---|---|---|---|"]
     for r in report:
-        lines.append("| %s | %s | %s | %s |" % (CHAIN_NAMES.get(r["chain"], r["chain"]), r["status"], r["stores"], r["matched"]))
+        lines.append("| %s | %s | %s | %s | %s |" % (CHAIN_NAMES.get(r["chain"], r["chain"]), str(r["status"]).replace("|", "·"), r["stores"], r.get("catalog", 0), r["matched"]))
     chains_ok = sorted({x["chain"] for x in rows})
     lines += ["", "רשתות עם מחירים: %s" % (", ".join(chains_ok) or "אין"),
               "מוצרים שלא נמצאו באף רשת: %s" % (", ".join(missing) or "אין"),
               "סה\"כ שורות מחיר: %d" % len(rows)]
+    if NEAR:
+        lines += ["", "שמות דומים בקטלוגים למוצרים שלא נמצאו (להבנה בלבד, לא נחשבו התאמה):"]
+        lines += ["- %s: %s" % (q, "; ".join(h)) for q, h in NEAR.items()]
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     print("\n".join(lines))
@@ -509,7 +585,7 @@ def carry_over(rows, report, prev, wanted_items, today):
             kept += 1
             oldest = as_of if oldest is None or as_of < oldest else oldest
         if kept:
-            line["status"] += " | נשארו %d מחירים ישנים מ-%s" % (kept, oldest)
+            line["status"] += " · נשארו %d מחירים ישנים מ-%s" % (kept, oldest)
     return rows
 
 
