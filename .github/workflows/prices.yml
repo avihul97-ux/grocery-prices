@@ -1,0 +1,39 @@
+# הרצה יומית של משיכת המחירים. אין צורך לערוך כלום בקובץ הזה.
+name: update-prices
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install scraper
+        run: pip install il-supermarket-scraper
+
+      - name: Fetch prices
+        env:
+          WANTED_URL: ${{ secrets.WANTED_URL }}
+          CHAINS: ${{ vars.CHAINS }}
+        run: python fetch_prices.py
+
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "prices-bot"
+          git config user.email "prices-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "update prices" || echo "nothing to commit"
+          git push
