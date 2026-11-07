@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -14,13 +14,13 @@
   },
   {
    "chain": "ויקטורי",
-   "status": "לא ירדו קבצי סניפים (האתר לא החזיר קבצים)",
+   "status": "לא ירדו קבצי סניפים (ultiprocessing/pool.py\", line 774, in get |     raise self._value | ValueError: class_names VICTORY_NEW_SOURCE not found)",
    "stores": 0
   },
   {
    "chain": "אושר עד",
    "status": "תקין",
-   "stores": 2
+   "stores": 1
   },
   {
    "chain": "יוחננוף",
@@ -49,65 +49,54 @@
   },
   {
    "chain": "מחסני השוק",
-   "status": "לא ירדו קבצי סניפים (האתר לא החזיר קבצים)",
+   "status": "לא ירדו קבצי סניפים (ocessing/pool.py\", line 774, in get |     raise self._value | ValueError: class_names MAHSANI_ASHUK_NEW_SOURCE not found)",
    "stores": 0
   }
  ],
  "prices": [
   {
    "item": "ביצים",
-   "product": "ביצים חופש 12 יח גדו",
-   "barcode": "7290001201862",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קסם",
-   "price": 23.9,
+   "product": "ביצי דג שיבוט 200 גר",
+   "barcode": "5705550300963",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 12.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 23.9
+   "unit_price": 6.45
   },
   {
    "item": "ביצים",
-   "product": "ביצים חופש 12 יח גדו",
-   "barcode": "7290001201862",
-   "chain": "אושר עד",
-   "branch": "תל אביב",
-   "price": 19.9,
+   "product": "ביצי דג שיבוט 200 גר",
+   "barcode": "5705550300963",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 12.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 1.66
+   "unit_price": 6.45
   },
   {
    "item": "ביצים",
-   "product": "ביצים חופש 12 יח גדו",
-   "barcode": "7290001201862",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 26.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 26.9
-  },
-  {
-   "item": "ביצים",
-   "product": "≈ ביצים L חופש 12 יח",
-   "barcode": "7290005271755",
+   "product": "ביצי דג שיבוט 200 גר",
+   "barcode": "5705550300963",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 19.9,
+   "price": 14.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 19.9
+   "unit_price": 7.45
   },
   {
    "item": "ביצים",
-   "product": "≈ ביצים גדולות לארג 12",
-   "barcode": "7290014996007",
-   "chain": "רמי לוי",
-   "branch": "אסתר המלכה תל אביב",
-   "price": 14.54,
+   "product": "≈ ביצי דג אדום בצנצנת 200 גרם",
+   "barcode": "7290012958106",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 179.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 1.21
+   "unit_price": 89.95
   },
   {
    "item": "שייטל",
@@ -192,10 +181,10 @@
    "barcode": "7290002069041",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 39.9,
+   "price": 34.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 39.9
+   "unit_price": 34.9
   },
   {
    "item": "חזה עוף",
@@ -257,11 +246,11 @@
    "product": "פסטרמה אקסמעושנת דק120",
    "barcode": "7290109580432",
    "chain": "אושר עד",
-   "branch": "תל אביב",
-   "price": 13.9,
+   "branch": "בני ברק",
+   "price": 14.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 11.58
+   "unit_price": 12.42
   },
   {
    "item": "פסטרמות",
@@ -508,13 +497,13 @@
   {
    "item": "גרעיני פופקורן",
    "product": "≈ גרעיני תירס לפופקורן",
-   "barcode": "7290117033043",
+   "barcode": "7290117035016",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 13.9,
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 2.78
+   "unit_price": 2.38
   },
   {
    "item": "רצועות שייטל",
@@ -592,17 +581,6 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 5.16
-  },
-  {
-   "item": "mushroom sauce",
-   "product": "≈ פיצת השף רוטב פטריות",
-   "barcode": "7290002603474",
-   "chain": "אושר עד",
-   "branch": "תל אביב",
-   "price": 12.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 6.45
   },
   {
    "item": "mushroom sauce",
@@ -1068,14 +1046,14 @@
   },
   {
    "item": "כרעיים",
-   "product": "כרעיים עוף טרי עטרה (לק\"ג)",
-   "barcode": "7290001209356",
+   "product": "כרעיים עוף טרי פרימה (לק\"ג)",
+   "barcode": "7290002069010",
    "chain": "אושר עד",
-   "branch": "תל אביב",
-   "price": 26.9,
+   "branch": "בני ברק",
+   "price": 22.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 26.9
+   "unit_price": 22.9
   },
   {
    "item": "כרעיים",
@@ -1158,26 +1136,6 @@
  "candidates": {
   "ביצים": [
    {
-    "barcode": "7290001201862",
-    "name": "ביצים חופש 12 יח גדו",
-    "chains": [
-     "OSHER_AD",
-     "SHUFERSAL",
-     "TIV_TAAM"
-    ],
-    "min_price": 19.9
-   },
-   {
-    "barcode": "7290001201619",
-    "name": "ביצים 18 יח בינוני ל",
-    "chains": [
-     "OSHER_AD",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 19.6
-   },
-   {
     "barcode": "5705550300963",
     "name": "ביצי דג שיבוט 200 גר",
     "chains": [
@@ -1213,6 +1171,24 @@
      "YOHANANOF"
     ],
     "min_price": 21.7
+   },
+   {
+    "barcode": "7290001201862",
+    "name": "ביצי חופש 12 יח L",
+    "chains": [
+     "SHUFERSAL",
+     "TIV_TAAM"
+    ],
+    "min_price": 23.9
+   },
+   {
+    "barcode": "742259241895",
+    "name": "ביצים 12 יח בינוני M",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 13.4
    }
   ],
   "שייטל": [
@@ -1354,23 +1330,21 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290000318189",
-    "name": "פסטרמה ברביקיו יחיעם 300",
+    "barcode": "7290109580609",
+    "name": "פסטרמה גחלים דק דק120גרם",
     "chains": [
-     "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 26.9
+    "min_price": 13.9
    },
    {
-    "barcode": "7290005996221",
-    "name": "פסטרמה של פעם דק דק יחיע",
+    "barcode": "7290005996238",
+    "name": "פסטרמה בדבש דק דק יחיעם",
     "chains": [
      "KESHET",
-     "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
      "YOHANANOF"
@@ -1378,11 +1352,10 @@
     "min_price": 12.9
    },
    {
-    "barcode": "7290001567760",
-    "name": "פסטרמה של פעם 300גרם",
+    "barcode": "7290000318189",
+    "name": "פסטרמה ברביקיו יחיעם 300",
     "chains": [
      "KESHET",
-     "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
      "YOHANANOF"
@@ -1632,6 +1605,14 @@
     "min_price": 13.9
    },
    {
+    "barcode": "7290117035016",
+    "name": "גרעיני תירס לפופקורן",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
+   },
+   {
     "barcode": "7290020661241",
     "name": "גרעיני פופקורן 1 ק\"ג",
     "chains": [
@@ -1761,18 +1742,6 @@
     "min_price": 7.9
    },
    {
-    "barcode": "7290100857045",
-    "name": "שוקולד ספלנדיד מריר עם קפה 100 גר",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 13.9
-   },
-   {
     "barcode": "7290019079729",
     "name": "שוקולד ציפס מריר 250גרם",
     "chains": [
@@ -1783,6 +1752,18 @@
      "YOHANANOF"
     ],
     "min_price": 20.9
+   },
+   {
+    "barcode": "7290100857045",
+    "name": "שוקולד ספלנדיד מריר עם קפה 100 גר",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 13.9
    },
    {
     "barcode": "7290008748384",
@@ -1942,16 +1923,6 @@
     "min_price": 21.9
    },
    {
-    "barcode": "7290019297628",
-    "name": "שקד טבעי 150 גרם ששון הקולה",
-    "chains": [
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM"
-    ],
-    "min_price": 17.9
-   },
-   {
     "barcode": "7290000267104",
     "name": "שקד טבעי גרוס100גשקדיה",
     "chains": [
@@ -1960,6 +1931,16 @@
      "YOHANANOF"
     ],
     "min_price": 11.9
+   },
+   {
+    "barcode": "7290019297628",
+    "name": "שקד טבעי 150 גרם ששון הקולה",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM"
+    ],
+    "min_price": 17.9
    },
    {
     "barcode": "7290013145079",
@@ -2175,12 +2156,12 @@
     "min_price": 21.9
    },
    {
-    "barcode": "17001",
-    "name": "כרעיים עוף",
+    "barcode": "16205",
+    "name": "כרעיים מתובלים",
     "chains": [
      "KESHET"
     ],
-    "min_price": 24.9
+    "min_price": 69.0
    }
   ],
   "מלון": [
