@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "city": "רמת גן והסביבה",
  "report": [
   {
    "chain": "שופרסל",
-   "status": "יש 8 סניפים באזור, אבל לא ירדו קבצי מחירים (| Logger       2026-11-08 05:55:30,351 INFO     [Thread-1 (_run)] logger.py:info done scraping DumpFolderNames.SHUFERSAL) · נשארו 16 מחירים ישנים מ-2026-11-07",
+   "status": "לא ירדו קבצי סניפים (האתר לא ענה בזמן, כנראה חסום מחוץ לישראל) · נשארו 16 מחירים ישנים מ-2026-11-07",
    "stores": 0
   },
   {
@@ -159,10 +159,10 @@
    "barcode": "7290002069041",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 34.9,
+   "price": 39.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 34.9
+   "unit_price": 39.9
   },
   {
    "item": "חזה עוף",
@@ -496,14 +496,14 @@
   },
   {
    "item": "mushroom sauce",
-   "product": "רוטב פטריות צמחוני 250 מ\"ל מקסצאפ",
-   "barcode": "8858271003136",
+   "product": "≈ רוטב פטריות ריקו 210",
+   "barcode": "4604075016810",
    "chain": "קשת טעמים",
-   "branch": "קולינריק רמת גן",
-   "price": 12.9,
+   "branch": "קרית אליעזר",
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.16
+   "unit_price": 5.67
   },
   {
    "item": "שוקולד מריר",
@@ -940,10 +940,21 @@
    "barcode": "4412807",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 9.9,
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 9.9
+   "unit_price": 8.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "30",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
   },
   {
    "item": "שייטל",
@@ -1616,7 +1627,6 @@
     "barcode": "8858271003136",
     "name": "רוטב פטריות צמחוני 250 מ\"ל מקסצאפ",
     "chains": [
-     "KESHET",
      "RAMI_LEVY",
      "TIV_TAAM",
      "YOHANANOF"
@@ -1702,18 +1712,6 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290008748384",
-    "name": "שוקולד ספלנדיד מריר 70% 100 גר",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 13.9
-   },
-   {
     "barcode": "7290000180212",
     "name": "שוקולד מריר אגוזים ח",
     "chains": [
@@ -1734,6 +1732,16 @@
      "YOHANANOF"
     ],
     "min_price": 8.9
+   },
+   {
+    "barcode": "7290119500536",
+    "name": "שוקולד מריר תפוז ללא סוכר טוסו 100 גר",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "TIV_TAAM"
+    ],
+    "min_price": 15.9
    }
   ],
   "שוקולד מריר תפוז": [
@@ -1756,15 +1764,6 @@
      "TIV_TAAM"
     ],
     "min_price": 15.9
-   },
-   {
-    "barcode": "7290122634105",
-    "name": "שוקולד מריר 70% תפוז",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY"
-    ],
-    "min_price": 11.9
    }
   ],
   "גבינה לבנה": [
@@ -2093,12 +2092,12 @@
     "min_price": 35.9
    },
    {
-    "barcode": "7290000000468",
-    "name": "כרעיים עוף מעושנים",
+    "barcode": "16579",
+    "name": "כרעיים עוף איטלקי",
     "chains": [
      "KESHET"
     ],
-    "min_price": 65.0
+    "min_price": 79.0
    }
   ],
   "מלון": [
@@ -2148,7 +2147,7 @@
     "chains": [
      "TIV_TAAM"
     ],
-    "min_price": 9.9
+    "min_price": 8.9
    }
   ]
  },
