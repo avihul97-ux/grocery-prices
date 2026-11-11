@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -14,7 +14,7 @@
   },
   {
    "chain": "ויקטורי",
-   "status": "לא ירדו קבצי סניפים (ultiprocessing/pool.py\", line 774, in get |     raise self._value | ValueError: class_names VICTORY_NEW_SOURCE not found)",
+   "status": "לא ירדו קבצי סניפים (האתר לא החזיר קבצים)",
    "stores": 0
   },
   {
@@ -49,7 +49,7 @@
   },
   {
    "chain": "מחסני השוק",
-   "status": "לא ירדו קבצי סניפים (ocessing/pool.py\", line 774, in get |     raise self._value | ValueError: class_names MAHSANI_ASHUK_NEW_SOURCE not found)",
+   "status": "לא ירדו קבצי סניפים (האתר לא החזיר קבצים)",
    "stores": 0
   }
  ],
@@ -229,138 +229,6 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 13.25
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 23.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 11.95
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 18.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 9.45
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 18.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 9.45
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 23.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 11.95
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 18.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 9.45
-  },
-  {
-   "item": "גבינה צהובה",
-   "product": "גבינה צהובה נעם דק דק 15% 200 גר",
-   "barcode": "7290102396665",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 20.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 10.45
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 35.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 4.79
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 25.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 3.45
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 25.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 3.45
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 26.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 3.59
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 35.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 4.79
-  },
-  {
-   "item": "שניצל תירס 99 קלוריות",
-   "product": "שניצל תירס קלאסי 750 גר בדצ",
-   "barcode": "7290006739445",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 25.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 3.45
   },
   {
    "item": "פרמזן",
@@ -1012,6 +880,72 @@
    "unit_price": 24.9
   },
   {
+   "item": "מלון",
+   "product": "מלון מובחר (לק\"ג)",
+   "barcode": "7290000965055",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "7290000000140",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "7290009003109",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "696",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "4412807",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "30",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
    "item": "עגבניות",
    "product": "עגבניה (לק\"ג)",
    "barcode": "7290000000022",
@@ -1036,7 +970,7 @@
   {
    "item": "עגבניות",
    "product": "עגבניה (לק\"ג)",
-   "barcode": "7290000051002",
+   "barcode": "7290000000100",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 6.9,
@@ -1068,14 +1002,14 @@
   },
   {
    "item": "עגבניות",
-   "product": "עגבניות שרי (לק\"ג)",
-   "barcode": "7290000006130",
+   "product": "עגבניות (לק\"ג)",
+   "barcode": "2",
    "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 59.0,
+   "branch": "קולינריק רמת גן",
+   "price": 10.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 59.0
+   "unit_price": 10.9
   },
   {
    "item": "בצל ירוק",
@@ -1208,72 +1142,6 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 2.4
-  },
-  {
-   "item": "מלון",
-   "product": "מלון מובחר (לק\"ג)",
-   "barcode": "7290000965055",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 6.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 6.9
-  },
-  {
-   "item": "מלון",
-   "product": "מלון (לק\"ג)",
-   "barcode": "7290000000140",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 4.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 4.9
-  },
-  {
-   "item": "מלון",
-   "product": "מלון (לק\"ג)",
-   "barcode": "7290009003109",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 4.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 4.9
-  },
-  {
-   "item": "מלון",
-   "product": "מלון (לק\"ג)",
-   "barcode": "696",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 4.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 4.9
-  },
-  {
-   "item": "מלון",
-   "product": "מלון (לק\"ג)",
-   "barcode": "4412807",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 8.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 8.9
-  },
-  {
-   "item": "מלון",
-   "product": "מלון (לק\"ג)",
-   "barcode": "30",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 6.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 6.9
   },
   {
    "item": "ביצים",
@@ -1557,155 +1425,6 @@
      "YOHANANOF"
     ],
     "min_price": 26.9
-   }
-  ],
-  "גבינה צהובה": [
-   {
-    "barcode": "7290102396665",
-    "name": "גבינה צהובה נעם דק דק 15% 200 גר",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 18.9
-   },
-   {
-    "barcode": "7290102397204",
-    "name": "גבינה צהובה נעם דק דק 22% 200 גר",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 18.9
-   },
-   {
-    "barcode": "7290004126674",
-    "name": "גבינה צהובה לייט9% 200גר",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 21.4
-   },
-   {
-    "barcode": "7290000046327",
-    "name": "גבינה צהובה גלבוע 22",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 14.6
-   },
-   {
-    "barcode": "7290004122683",
-    "name": "גבינה צהובה אצבעות ע",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 18.9
-   },
-   {
-    "barcode": "7290004122195",
-    "name": "גבינה צהובה גוש חלב 200 גרם",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 15.3
-   }
-  ],
-  "שניצל תירס 99 קלוריות": [
-   {
-    "barcode": "7290006739445",
-    "name": "שניצל תירס קלאסי 750 גר בדצ",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 25.9
-   },
-   {
-    "barcode": "7290000300900",
-    "name": "שניצל תירס 750 גרם טבעול",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 29.9
-   },
-   {
-    "barcode": "7290012522581",
-    "name": "שניצל תירס טבעול ללא גלוטן 664 גר",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 22.9
-   },
-   {
-    "barcode": "7290111566752",
-    "name": "שניצל תירס 99 קלוריות טבעול 693 גר",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 29.9
-   },
-   {
-    "barcode": "7290118426493",
-    "name": "שניצל תירס קראנצ 490גרם",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 28.9
-   },
-   {
-    "barcode": "7290118426479",
-    "name": "שניצל תירס קראנצחריף490",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 28.9
    }
   ],
   "פרמזן": [
@@ -2226,7 +1945,7 @@
      "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 14.9
+    "min_price": 17.8
    }
   ],
   "נוזל לניקוי אסלה": [
@@ -2310,16 +2029,16 @@
     "min_price": 31.9
    },
    {
-    "barcode": "7290000611518",
-    "name": "כרעיים עוף טרי תפ",
+    "barcode": "7290009802214",
+    "name": "כרעי עוף טרי ארוז  עצמי",
     "chains": [
      "SHUFERSAL"
     ],
     "min_price": 31.9
    },
    {
-    "barcode": "7290009802214",
-    "name": "כרעי עוף טרי ארוז  עצמי",
+    "barcode": "7290000611518",
+    "name": "כרעיים עוף טרי תפ",
     "chains": [
      "SHUFERSAL"
     ],
@@ -2334,12 +2053,62 @@
     "min_price": 21.9
    },
    {
-    "barcode": "17001",
-    "name": "כרעיים עוף",
+    "barcode": "16205",
+    "name": "כרעיים מתובלים",
     "chains": [
      "KESHET"
     ],
-    "min_price": 24.9
+    "min_price": 69.0
+   }
+  ],
+  "מלון": [
+   {
+    "barcode": "7290000965055",
+    "name": "מלון מובחר",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290000965086",
+    "name": "מלון קנרי",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000992839",
+    "name": "מלון גולדן סוויט",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000000140",
+    "name": "מלון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000000408",
+    "name": "מלון גולדן",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000000881",
+    "name": "מלון מיוחד",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
    }
   ],
   "עגבניות": [
@@ -2530,56 +2299,6 @@
      "YOHANANOF"
     ],
     "min_price": 5.9
-   }
-  ],
-  "מלון": [
-   {
-    "barcode": "7290000965055",
-    "name": "מלון מובחר",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 6.9
-   },
-   {
-    "barcode": "7290000965086",
-    "name": "מלון קנרי",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 7.9
-   },
-   {
-    "barcode": "7290000992839",
-    "name": "מלון גולדן סוויט",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 8.0
-   },
-   {
-    "barcode": "7290000000140",
-    "name": "מלון",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 4.9
-   },
-   {
-    "barcode": "7290000000408",
-    "name": "מלון גולדן",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 4.9
-   },
-   {
-    "barcode": "7290000000881",
-    "name": "מלון מיוחד",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 7.9
    }
   ],
   "ביצים": [
