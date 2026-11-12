@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -10,7 +10,7 @@
   {
    "chain": "רמי לוי",
    "status": "תקין",
-   "stores": 8
+   "stores": 7
   },
   {
    "chain": "ויקטורי",
@@ -881,14 +881,14 @@
   },
   {
    "item": "מלון",
-   "product": "מלון מובחר (לק\"ג)",
-   "barcode": "7290000965055",
+   "product": "מלון פונטו (לק\"ג)",
+   "barcode": "7290000965079",
    "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 6.9,
+   "branch": "שופרסל אקספרס הרוא\"ה רמת גן",
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 6.9
+   "unit_price": 8.9
   },
   {
    "item": "מלון",
@@ -940,10 +940,10 @@
    "barcode": "30",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 6.9,
+   "price": 7.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 6.9
+   "unit_price": 7.9
   },
   {
    "item": "עגבניות",
@@ -970,7 +970,7 @@
   {
    "item": "עגבניות",
    "product": "עגבניה (לק\"ג)",
-   "barcode": "7290000000100",
+   "barcode": "7290000051002",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 6.9,
@@ -1416,8 +1416,8 @@
     "min_price": 12.9
    },
    {
-    "barcode": "7290000318189",
-    "name": "פסטרמה ברביקיו יחיעם 300",
+    "barcode": "7290014046016",
+    "name": "פסטרמה של פעם 250גרם",
     "chains": [
      "KESHET",
      "RAMI_LEVY",
@@ -2053,31 +2053,15 @@
     "min_price": 21.9
    },
    {
-    "barcode": "16205",
-    "name": "כרעיים מתובלים",
+    "barcode": "17001",
+    "name": "כרעיים עוף",
     "chains": [
      "KESHET"
     ],
-    "min_price": 69.0
+    "min_price": 24.9
    }
   ],
   "מלון": [
-   {
-    "barcode": "7290000965055",
-    "name": "מלון מובחר",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 6.9
-   },
-   {
-    "barcode": "7290000965086",
-    "name": "מלון קנרי",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 7.9
-   },
    {
     "barcode": "7290000992839",
     "name": "מלון גולדן סוויט",
@@ -2109,6 +2093,22 @@
      "RAMI_LEVY"
     ],
     "min_price": 7.9
+   },
+   {
+    "barcode": "7290000965079",
+    "name": "מלון פונטו",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "696",
+    "name": "מלון",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 4.9
    }
   ],
   "עגבניות": [
@@ -2322,24 +2322,6 @@
     "min_price": 14.5
    },
    {
-    "barcode": "742259241925",
-    "name": "ביצים 18יח בנוני M",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 20.0
-   },
-   {
-    "barcode": "742259241932",
-    "name": "ביצים 18יח גדול L",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 21.7
-   },
-   {
     "barcode": "7290001201862",
     "name": "ביצי חופש 12 יח L",
     "chains": [
@@ -2356,6 +2338,24 @@
      "YOHANANOF"
     ],
     "min_price": 13.4
+   },
+   {
+    "barcode": "742259241925",
+    "name": "ביצים 18יח בנוני M",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 20.0
+   },
+   {
+    "barcode": "742259241932",
+    "name": "ביצים 18יח גדול L",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 21.7
    }
   ],
   "חלב": [
