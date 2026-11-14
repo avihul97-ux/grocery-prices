@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -244,13 +244,13 @@
   {
    "item": "גרעיני פופקורן",
    "product": "≈ גרעיני תירס לפופקורן",
-   "barcode": "7290117033043",
+   "barcode": "7290117035016",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 13.9,
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 2.78
+   "unit_price": 2.38
   },
   {
    "item": "רצועות שייטל",
@@ -638,6 +638,314 @@
    "unit_price": 7.9
   },
   {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 24.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 24.9
+  },
+  {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 19.7,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 0.09
+  },
+  {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 19.7,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 19.7
+  },
+  {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 19.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 19.9
+  },
+  {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 25.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 25.9
+  },
+  {
+   "item": "מגבונים האגיס חלב",
+   "product": "מגבוני האגיס רביעיה ללא בישום",
+   "barcode": "7290000195537",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 21.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 21.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפון (לק\"ג)",
+   "barcode": "7290000000046",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפון (לק\"ג)",
+   "barcode": "7290000001014",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפון (לק\"ג)",
+   "barcode": "7290009000207",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפון (לק\"ג)",
+   "barcode": "7290000000695",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפונים (לק\"ג)",
+   "barcode": "4412814",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 9.9
+  },
+  {
+   "item": "מלפפונים",
+   "product": "מלפפון (לק\"ג)",
+   "barcode": "4",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניה (לק\"ג)",
+   "barcode": "7290000000022",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניות (לק\"ג)",
+   "barcode": "4412784",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 9.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניה (לק\"ג)",
+   "barcode": "7290000051002",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניה (לק\"ג)",
+   "barcode": "7290009000122",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניה (לק\"ג)",
+   "barcode": "725",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "עגבניות",
+   "product": "עגבניות (לק\"ג)",
+   "barcode": "2",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 9.9
+  },
+  {
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 12.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 12.9
+  },
+  {
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "יוחננוף",
+   "branch": "תל אביב  נחלת יצחק",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "7290000964492",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 12.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 12.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "7290000001117",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 5.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.0
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "7290009005301",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "691",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "4412586",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "125",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 10.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 10.9
+  },
+  {
    "item": "מלון",
    "product": "מלון פונטו (לק\"ג)",
    "barcode": "7290000965079",
@@ -702,72 +1010,6 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 7.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניה (לק\"ג)",
-   "barcode": "7290000000022",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 8.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 8.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניות (לק\"ג)",
-   "barcode": "4412784",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 9.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 9.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניה (לק\"ג)",
-   "barcode": "7290000000100",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 6.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 6.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניה (לק\"ג)",
-   "barcode": "7290009000122",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 7.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 7.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניה (לק\"ג)",
-   "barcode": "725",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 6.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 6.9
-  },
-  {
-   "item": "עגבניות",
-   "product": "עגבניות (לק\"ג)",
-   "barcode": "2",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 8.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 8.9
   },
   {
    "item": "בצל ירוק",
@@ -1198,6 +1440,14 @@
     "min_price": 12.9
    },
    {
+    "barcode": "7290117035016",
+    "name": "גרעיני תירס לפופקורן",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
+   },
+   {
     "barcode": "7290117033043",
     "name": "גרעיני תירס לפופקורן",
     "chains": [
@@ -1598,50 +1848,126 @@
     "min_price": 11.9
    }
   ],
-  "מלון": [
+  "מגבונים האגיס חלב": [
    {
-    "barcode": "7290000992839",
-    "name": "מלון גולדן סוויט",
+    "barcode": "7290000195537",
+    "name": "מגבוני האגיס רביעיה ללא בישום",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 19.7
+   },
+   {
+    "barcode": "7290111344206",
+    "name": "מגבוני האגיס רביעייה  מבושם",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 19.7
+   },
+   {
+    "barcode": "7290000195773",
+    "name": "מגבוני האגיס קמומיל רבעייה",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 19.7
+   },
+   {
+    "barcode": "7290111346538",
+    "name": "האגיס פרידום דריי5+ 28יח",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 39.9
+   },
+   {
+    "barcode": "7290000197425",
+    "name": "האגיס פרידום דריי מידה3",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 39.9
+   },
+   {
+    "barcode": "7290000197463",
+    "name": "האגיס פרידום דריי 4+",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 39.9
+   }
+  ],
+  "מלפפונים": [
+   {
+    "barcode": "7290000000046",
+    "name": "מלפפון",
     "chains": [
      "SHUFERSAL"
     ],
     "min_price": 7.9
    },
    {
-    "barcode": "7290000000140",
-    "name": "מלון",
+    "barcode": "7290000000101",
+    "name": "מלפפון",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.9
+    "min_price": 6.9
    },
    {
-    "barcode": "7290000000408",
-    "name": "מלון גולדן",
+    "barcode": "7290000001014",
+    "name": "מלפפון",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.9
+    "min_price": 6.9
    },
    {
-    "barcode": "7290000000881",
-    "name": "מלון מיוחד",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 7.9
-   },
-   {
-    "barcode": "7290000965079",
-    "name": "מלון פונטו",
+    "barcode": "7290000960548",
+    "name": "מלפפון אורגני",
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 8.9
+    "min_price": 17.9
    },
    {
-    "barcode": "696",
-    "name": "מלון",
+    "barcode": "7290000987460",
+    "name": "מלפפון מובחר",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000000695",
+    "name": "מלפפון",
     "chains": [
      "YOHANANOF"
     ],
@@ -1698,6 +2024,169 @@
      "RAMI_LEVY"
     ],
     "min_price": 18.9
+   }
+  ],
+  "חסה": [
+   {
+    "barcode": "7290018795385",
+    "name": "חסה לאליק מהדרין מרי",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "7290115678598",
+    "name": "חסה אייסברג 300גר טע",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290013366634",
+    "name": "חסה סלנובה הידרופוני )ק(",
+    "chains": [
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290016823257",
+    "name": "חסה סלנובה מהדרין יח",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290013366665",
+    "name": "חסה גמביט קראנצית כרמלים יחידה",
+    "chains": [
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "7290016334500",
+    "name": "חסה לבבות בשקית (ק)",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 10.9
+   }
+  ],
+  "לימונים": [
+   {
+    "barcode": "7290000964492",
+    "name": "לימון",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "7290000000117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000001117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.0
+   },
+   {
+    "barcode": "7290000000517",
+    "name": "לימון ליים",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290000965826",
+    "name": "לימון אורגני",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "691",
+    "name": "לימון",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 7.9
+   }
+  ],
+  "מלון": [
+   {
+    "barcode": "7290000992839",
+    "name": "מלון גולדן סוויט",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000000140",
+    "name": "מלון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000000408",
+    "name": "מלון גולדן",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000000881",
+    "name": "מלון מיוחד",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000965079",
+    "name": "מלון פונטו",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "696",
+    "name": "מלון",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 4.9
    }
   ],
   "בצל ירוק": [
