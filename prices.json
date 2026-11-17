@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -100,14 +100,14 @@
   },
   {
    "item": "שייטל",
-   "product": "שייטל אנגוס טרי (לק\"ג)",
-   "barcode": "7290000308868",
+   "product": "שייטל בקר טרי (לק\"ג)",
+   "barcode": "17248",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 149.9,
+   "price": 109.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 149.9
+   "unit_price": 109.9
   },
   {
    "item": "פסטרמות",
@@ -374,6 +374,17 @@
    "unit_price": 2.32
   },
   {
+   "item": "גבינה לבנה",
+   "product": "גבינה לבנה 5% שומן 250 ג",
+   "barcode": "7290000048185",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 5.87,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.35
+  },
+  {
    "item": "שקדים טבעיים",
    "product": "שקדי מרק רכיבים טבעי",
    "barcode": "7290000063140",
@@ -485,14 +496,14 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "≈ קפסולות למדיח פיירי",
-   "barcode": "8700216236164",
+   "product": "≈ קפסולות למדיח פלטינו",
+   "barcode": "8700216236126",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 54.9,
+   "price": 79.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 1.14
+   "unit_price": 1.13
   },
   {
    "item": "מלח למדיח",
@@ -848,7 +859,7 @@
   },
   {
    "item": "תירס רגיל",
-   "product": "תירס מתוק לייט3*200 יכין",
+   "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
    "chain": "שופרסל",
    "branch": "שלי רמת גן- קריניצי",
@@ -859,7 +870,7 @@
   },
   {
    "item": "תירס רגיל",
-   "product": "תירס מתוק לייט3*200 יכין",
+   "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
@@ -870,7 +881,7 @@
   },
   {
    "item": "תירס רגיל",
-   "product": "תירס מתוק לייט3*200 יכין",
+   "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
@@ -881,7 +892,7 @@
   },
   {
    "item": "תירס רגיל",
-   "product": "תירס מתוק לייט3*200 יכין",
+   "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
@@ -892,7 +903,7 @@
   },
   {
    "item": "תירס רגיל",
-   "product": "תירס מתוק לייט3*200 יכין",
+   "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
@@ -969,14 +980,14 @@
   },
   {
    "item": "עגבניות",
-   "product": "עגבניות ירוקות (לק\"ג)",
-   "barcode": "7290000006134",
+   "product": "עגבניות (לק\"ג)",
+   "barcode": "2",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 59.0,
+   "price": 9.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 59.0
+   "unit_price": 9.9
   },
   {
    "item": "בצל ירוק",
@@ -1098,6 +1109,17 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 9.9
+  },
+  {
+   "item": "מלון",
+   "product": "מלון (לק\"ג)",
+   "barcode": "30",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
   },
   {
    "item": "ביצים",
@@ -1362,6 +1384,17 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 11.9
+  },
+  {
+   "item": "לימונים",
+   "product": "לימון (לק\"ג)",
+   "barcode": "125",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 10.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 10.9
   }
  ],
  "candidates": {
@@ -1617,17 +1650,12 @@
     "min_price": 11.9
    },
    {
-    "barcode": "7290106664562",
-    "name": "יטבתה רוטב שמנת עם פטריות 9% 250 גר",
+    "barcode": "4600699007081",
+    "name": "רוטב תיבול בטעם פטרי",
     "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
+     "KESHET"
     ],
-    "min_price": 10.3
+    "min_price": 9.9
    }
   ],
   "גבינה לבנה": [
@@ -1635,6 +1663,7 @@
     "barcode": "7290000048185",
     "name": "גבינה לבנה 5% שומן 250 ג",
     "chains": [
+     "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
@@ -1647,6 +1676,7 @@
     "barcode": "7290000474502",
     "name": "גבינה לבנה 5% שומן 250 ג",
     "chains": [
+     "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
@@ -1656,21 +1686,10 @@
     "min_price": 5.8
    },
    {
-    "barcode": "7290000047942",
-    "name": "גבינה לבנה  5%  250 גר בדצ",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 5.6
-   },
-   {
     "barcode": "7290004127800",
     "name": "גבינה לבנה למריחה 5% 500 גר",
     "chains": [
+     "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
@@ -1680,27 +1699,40 @@
     "min_price": 11.6
    },
    {
-    "barcode": "7290000047621",
-    "name": "גבינה לבנה 5% 250ג תנובה",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 5.8
-   },
-   {
     "barcode": "7290004127862",
     "name": "גבינה לבנה 5% 750 גרם",
     "chains": [
+     "KESHET",
      "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL",
      "YOHANANOF"
     ],
     "min_price": 17.4
+   },
+   {
+    "barcode": "7290102393268",
+    "name": "גבינה לבנה 5% שומן 750גר",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 17.4
+   },
+   {
+    "barcode": "7290010945481",
+    "name": "גבינה לבנה 5% שומן 500 ג",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 11.6
    }
   ],
   "שקדים טבעיים": [
@@ -1802,6 +1834,16 @@
     "min_price": 39.9
    },
    {
+    "barcode": "8700216236126",
+    "name": "קפסולות למדיח פלטינו",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 59.9
+   },
+   {
     "barcode": "8700216237239",
     "name": "טבליות למדיח פיירי 41 יח",
     "chains": [
@@ -1820,16 +1862,6 @@
      "YOHANANOF"
     ],
     "min_price": 19.9
-   },
-   {
-    "barcode": "7290108352009",
-    "name": "קפסולות גל למדיח סנו ספארק 50 יח",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "TIV_TAAM"
-    ],
-    "min_price": 44.9
    }
   ],
   "מלח למדיח": [
@@ -1992,7 +2024,7 @@
    },
    {
     "barcode": "7290000197463",
-    "name": "האגיס פרידום דריי 4+",
+    "name": "האגיס פרידום דריי +4",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -2222,7 +2254,7 @@
   "תירס רגיל": [
    {
     "barcode": "7290000209388",
-    "name": "תירס מתוק לייט3*200 יכין",
+    "name": "תירס מתוק לייט200*3 יכין",
     "chains": [
      "KESHET",
      "RAMI_LEVY",
@@ -2523,19 +2555,6 @@
     "min_price": 7.2
    },
    {
-    "barcode": "7290000056845",
-    "name": "חלב קרטון 3% תנובה 1.5 ליטר",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 10.8
-   },
-   {
     "barcode": "7290004131074",
     "name": "חלב קרטון+פקק 3% תנובה 1 ליטר",
     "chains": [
@@ -2586,6 +2605,19 @@
      "YOHANANOF"
     ],
     "min_price": 14.4
+   },
+   {
+    "barcode": "7290000042435",
+    "name": "חלב דל שומן בקרטון+פקק 1 ליטר 1%",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 6.8
    }
   ],
   "גזר": [
@@ -2621,7 +2653,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.2
+    "min_price": 3.9
    },
    {
     "barcode": "7290000000249",
