@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -620,7 +620,7 @@
    "product": "מגבוני האגיס רביעיה ללא בישום",
    "barcode": "7290000195537",
    "chain": "שופרסל",
-   "branch": "שלי רמת גן- ביאליק",
+   "branch": "שלי רמת גן- קריניצי",
    "price": 23.9,
    "promo_price": null,
    "promo_desc": "",
@@ -2289,18 +2289,6 @@
     "min_price": 7.9
    },
    {
-    "barcode": "7290000209371",
-    "name": "תירס מתוק מארז 3*123",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 15.9
-   },
-   {
     "barcode": "7290000208893",
     "name": "תירס מתוק לייט 246 ג",
     "chains": [
@@ -2318,6 +2306,16 @@
      "KESHET",
      "RAMI_LEVY",
      "SHUFERSAL"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000208534",
+    "name": "תירס מתוק לילדים 335",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "TIV_TAAM"
     ],
     "min_price": 9.9
    }
