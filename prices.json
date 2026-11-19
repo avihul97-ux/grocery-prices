@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -948,7 +948,7 @@
   {
    "item": "עגבניות",
    "product": "עגבניה (לק\"ג)",
-   "barcode": "7290000000100",
+   "barcode": "7290000051002",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 6.9,
@@ -973,10 +973,10 @@
    "barcode": "725",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 6.9,
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 6.9
+   "unit_price": 8.9
   },
   {
    "item": "עגבניות",
@@ -1005,7 +1005,7 @@
    "product": "בצל ירוק יח",
    "barcode": "7290000000466",
    "chain": "רמי לוי",
-   "branch": "שוקן תל אביב",
+   "branch": "בן גוריון גבעתיים",
    "price": 6.9,
    "promo_price": null,
    "promo_desc": "",
@@ -1060,11 +1060,11 @@
    "product": "מלון פונטו (לק\"ג)",
    "barcode": "7290000965079",
    "chain": "שופרסל",
-   "branch": "שופרסל אקספרס הרוא\"ה רמת גן",
-   "price": 8.9,
+   "branch": "שלי רמת גן- קסם",
+   "price": 7.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 8.9
+   "unit_price": 7.9
   },
   {
    "item": "מלון",
@@ -1369,10 +1369,10 @@
    "barcode": "691",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
-   "price": 7.9,
+   "price": 6.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.9
+   "unit_price": 6.9
   },
   {
    "item": "לימונים",
@@ -2292,12 +2292,11 @@
     "barcode": "7290000208893",
     "name": "תירס מתוק לייט 246 ג",
     "chains": [
-     "KESHET",
      "RAMI_LEVY",
      "TIV_TAAM",
      "YOHANANOF"
     ],
-    "min_price": 6.9
+    "min_price": 7.9
    },
    {
     "barcode": "6902023070807",
@@ -2432,6 +2431,22 @@
   ],
   "מלון": [
    {
+    "barcode": "7290000965079",
+    "name": "מלון פונטו",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000965086",
+    "name": "מלון קנרי",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
     "barcode": "7290000992839",
     "name": "מלון גולדן סוויט",
     "chains": [
@@ -2462,22 +2477,6 @@
      "RAMI_LEVY"
     ],
     "min_price": 7.9
-   },
-   {
-    "barcode": "7290000965079",
-    "name": "מלון פונטו",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 8.9
-   },
-   {
-    "barcode": "696",
-    "name": "מלון",
-    "chains": [
-     "YOHANANOF"
-    ],
-    "min_price": 4.9
    }
   ],
   "ביצים": [
@@ -2592,19 +2591,6 @@
     "min_price": 9.1
    },
    {
-    "barcode": "7290116936307",
-    "name": "חלב תנובה 3% שומן 2 ליטר מהדרין",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 14.4
-   },
-   {
     "barcode": "7290000042435",
     "name": "חלב דל שומן בקרטון+פקק 1 ליטר 1%",
     "chains": [
@@ -2616,6 +2602,19 @@
      "YOHANANOF"
     ],
     "min_price": 6.8
+   },
+   {
+    "barcode": "7290116930695",
+    "name": "חלב טרי נטול לקטוז 2% 1 ליטר",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 8.1
    }
   ],
   "גזר": [
@@ -2766,12 +2765,12 @@
     "min_price": 17.9
    },
    {
-    "barcode": "691",
-    "name": "לימון",
+    "barcode": "7290000000232",
+    "name": "לימון סיני",
     "chains": [
-     "YOHANANOF"
+     "RAMI_LEVY"
     ],
-    "min_price": 7.9
+    "min_price": 14.9
    }
   ]
  },
