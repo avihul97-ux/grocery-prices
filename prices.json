@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -814,50 +814,6 @@
    "unit_price": 3.45
   },
   {
-   "item": "חסה",
-   "product": "חסה לאליק מהדרין מרי",
-   "barcode": "7290018795385",
-   "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
-   "price": 13.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 13.9
-  },
-  {
-   "item": "חסה",
-   "product": "חסה לאליק מהדרין מרי",
-   "barcode": "7290018795385",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 12.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 12.9
-  },
-  {
-   "item": "חסה",
-   "product": "חסה לאליק מהדרין מרי",
-   "barcode": "7290018795385",
-   "chain": "יוחננוף",
-   "branch": "תל אביב  נחלת יצחק",
-   "price": 13.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 13.9
-  },
-  {
-   "item": "חסה",
-   "product": "חסה לאליק מהדרין מרי",
-   "barcode": "7290018795385",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 13.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 13.9
-  },
-  {
    "item": "תירס רגיל",
    "product": "תירס מתוק לייט200*3 יכין",
    "barcode": "7290000209388",
@@ -922,6 +878,39 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 2.08
+  },
+  {
+   "item": "ביצים",
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 20.1,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 20.1
+  },
+  {
+   "item": "ביצים",
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 19.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.11
+  },
+  {
+   "item": "ביצים",
+   "product": "ביצים 18 יח בינוני ל",
+   "barcode": "7290001201619",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 20.1,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 20.1
   },
   {
    "item": "עגבניות",
@@ -1056,15 +1045,81 @@
    "unit_price": 7.9
   },
   {
+   "item": "גזר",
+   "product": "גזר ארוז (לק\"ג)",
+   "barcode": "7290011128005",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "גזר",
+   "product": "גזר ארוז (לק\"ג)",
+   "barcode": "7290018825006",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 3.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.9
+  },
+  {
+   "item": "גזר",
+   "product": "גזר ארוז (לק\"ג)",
+   "barcode": "7290018825006",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "גזר",
+   "product": "גזר (לק\"ג)",
+   "barcode": "7290000001102",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 5.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.0
+  },
+  {
+   "item": "גזר",
+   "product": "גזר (לק\"ג)",
+   "barcode": "7290009000313",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "גזר",
+   "product": "גזר (לק\"ג)",
+   "barcode": "6",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
    "item": "מלון",
    "product": "מלון פונטו (לק\"ג)",
    "barcode": "7290000965079",
    "chain": "שופרסל",
-   "branch": "אקספרס קרניצי רמת גן",
-   "price": 8.9,
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 8.9
+   "unit_price": 11.9
   },
   {
    "item": "מלון",
@@ -1120,39 +1175,6 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 7.9
-  },
-  {
-   "item": "ביצים",
-   "product": "ביצים 18 יח בינוני ל",
-   "barcode": "7290001201619",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 20.1,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 20.1
-  },
-  {
-   "item": "ביצים",
-   "product": "ביצים 18 יח בינוני ל",
-   "barcode": "7290001201619",
-   "chain": "אושר עד",
-   "branch": "בני ברק",
-   "price": 19.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 1.11
-  },
-  {
-   "item": "ביצים",
-   "product": "ביצים 18 יח בינוני ל",
-   "barcode": "7290001201619",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 20.1,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 20.1
   },
   {
    "item": "חלב",
@@ -1221,70 +1243,114 @@
    "unit_price": 8.7
   },
   {
-   "item": "גזר",
-   "product": "גזר ארוז (לק\"ג)",
-   "barcode": "7290011128005",
-   "chain": "שופרסל",
-   "branch": "שלי רמת גן- קריניצי",
-   "price": 5.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 5.9
-  },
-  {
-   "item": "גזר",
-   "product": "גזר ארוז (לק\"ג)",
-   "barcode": "7290018825006",
-   "chain": "יוחננוף",
-   "branch": "בן צבי תל אביב",
-   "price": 3.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 3.9
-  },
-  {
-   "item": "גזר",
-   "product": "גזר ארוז (לק\"ג)",
-   "barcode": "7290018825006",
-   "chain": "טיב טעם",
-   "branch": "דלי כורזין גבעתיים",
-   "price": 5.9,
-   "promo_price": null,
-   "promo_desc": "",
-   "unit_price": 5.9
-  },
-  {
-   "item": "גזר",
-   "product": "גזר (לק\"ג)",
-   "barcode": "7290000001102",
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 5.0,
+   "price": 13.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.0
+   "unit_price": 13.9
   },
   {
-   "item": "גזר",
-   "product": "גזר (לק\"ג)",
-   "barcode": "7290009000313",
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 4.9,
+   "price": 12.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 4.9
+   "unit_price": 12.9
   },
   {
-   "item": "גזר",
-   "product": "גזר (לק\"ג)",
-   "barcode": "6",
-   "chain": "קשת טעמים",
-   "branch": "קרית אליעזר",
-   "price": 4.9,
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "יוחננוף",
+   "branch": "תל אביב  נחלת יצחק",
+   "price": 13.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 4.9
+   "unit_price": 13.9
+  },
+  {
+   "item": "חסה",
+   "product": "חסה לאליק מהדרין מרי",
+   "barcode": "7290018795385",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף (לק\"ג)",
+   "barcode": "7290000000619",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 12.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 12.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף (לק\"ג)",
+   "barcode": "7290000000132",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף (לק\"ג)",
+   "barcode": "7290009001525",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף (לק\"ג)",
+   "barcode": "739",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 8.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף (לק\"ג)",
+   "barcode": "4412746",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 13.9
+  },
+  {
+   "item": "פלפל חריף ירוק",
+   "product": "פלפל חריף ירוק (לק\"ג)",
+   "barcode": "25",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 9.9
   },
   {
    "item": "צנוניות",
@@ -1329,6 +1395,259 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 1.48
+  },
+  {
+   "item": "בצל לבן",
+   "product": "בצל יבש (לק\"ג)",
+   "barcode": "7290000000480",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "בצל לבן",
+   "product": "בצל יבש (לק\"ג)",
+   "barcode": "7290000000108",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 5.6,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.6
+  },
+  {
+   "item": "בצל לבן",
+   "product": "בצל יבש (לק\"ג)",
+   "barcode": "620",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 3.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.9
+  },
+  {
+   "item": "בצל לבן",
+   "product": "בצל יבש (לק\"ג)",
+   "barcode": "9913019",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "בצל לבן",
+   "product": "בצל יבש (לק\"ג)",
+   "barcode": "31",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "7290000000138",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "7290000000109",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 4.3,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.3
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "7290009000504",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 2.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.9
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "681",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 3.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.9
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "4412852",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "כרוב",
+   "product": "כרוב לבן (לק\"ג)",
+   "barcode": "8",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 10.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.98
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.66
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 8.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.62
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.8
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 10.6,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.93
+  },
+  {
+   "item": "תירס",
+   "product": "תירס גרעינים 550 גר A2 יכין",
+   "barcode": "7290000208329",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 1.8
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוז (לק\"ג)",
+   "barcode": "7290000964508",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 9.9
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוז (לק\"ג)",
+   "barcode": "7290000000122",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוז (לק\"ג)",
+   "barcode": "7290009005080",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוז (לק\"ג)",
+   "barcode": "797",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוזים (לק\"ג)",
+   "barcode": "4412432",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 10.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 10.9
+  },
+  {
+   "item": "תפוזים",
+   "product": "תפוזים (לק\"ג)",
+   "barcode": "119",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 7.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 7.9
   },
   {
    "item": "לימונים",
@@ -1395,6 +1714,226 @@
    "promo_price": null,
    "promo_desc": "",
    "unit_price": 10.9
+  },
+  {
+   "item": "תפוחי אדמה",
+   "product": "תפוח אדמה אדום ארוז (לק\"ג)",
+   "barcode": "7290000001692",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "תפוחי אדמה",
+   "product": "תפוח אדמה תפזורת (לק\"ג)",
+   "barcode": "7290009002997",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 6.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 6.9
+  },
+  {
+   "item": "תפוחי אדמה",
+   "product": "תפוח אדמה לבן (לק\"ג)",
+   "barcode": "104",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 5.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.9
+  },
+  {
+   "item": "תפוחי אדמה",
+   "product": "תפוח אדמה לאפיה (לק\"ג)",
+   "barcode": "7290000000401",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 4.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 4.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבנית שרי אורגנית (לק\"ג)",
+   "barcode": "7290000969367",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- מרום נווה",
+   "price": 36.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 36.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבניות שרי לובלו (לק\"ג)",
+   "barcode": "7290000128867",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 18.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 18.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבניות שרי (לק\"ג)",
+   "barcode": "7290009000115",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 20.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 20.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבניות שרי שקיל (לק\"ג)",
+   "barcode": "728",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 21.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 21.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבניות שרי (לק\"ג)",
+   "barcode": "7290005678882",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 30.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 30.9
+  },
+  {
+   "item": "עגבניות שרי",
+   "product": "עגבניות שרי (לק\"ג)",
+   "barcode": "7290000006130",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 59.0,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 59.0
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "שופרסל",
+   "branch": "שלי רמת גן- קריניצי",
+   "price": 15.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.45
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 13.8,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 3.45
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.14
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.14
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "טיב טעם",
+   "branch": "דלי כורזין גבעתיים",
+   "price": 16.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.6
+  },
+  {
+   "item": "גמבה אדומה",
+   "product": "פלפל אדום קלויים על האש 650 גרם SERA",
+   "barcode": "8690777221405",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 13.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.14
+  },
+  {
+   "item": "גמבה צהובה",
+   "product": "פלפלים צהובים חריפים",
+   "barcode": "8690531032377",
+   "chain": "רמי לוי",
+   "branch": "רמת גן  איילון",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.5
+  },
+  {
+   "item": "גמבה צהובה",
+   "product": "פלפלים צהובים חריפים",
+   "barcode": "8690531032377",
+   "chain": "אושר עד",
+   "branch": "בני ברק",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.91
+  },
+  {
+   "item": "גמבה צהובה",
+   "product": "פלפלים צהובים חריפים",
+   "barcode": "8690531032377",
+   "chain": "יוחננוף",
+   "branch": "בן צבי תל אביב",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 5.21
+  },
+  {
+   "item": "גמבה צהובה",
+   "product": "פלפלים צהובים חריפים",
+   "barcode": "8690531032377",
+   "chain": "קשת טעמים",
+   "branch": "קרית אליעזר",
+   "price": 9.9,
+   "promo_price": null,
+   "promo_desc": "",
+   "unit_price": 2.91
   }
  ],
  "candidates": {
@@ -2023,8 +2562,8 @@
     "min_price": 39.9
    },
    {
-    "barcode": "7290000197463",
-    "name": "האגיס פרידום דריי 4+",
+    "barcode": "7290000262413",
+    "name": "האגיס אקסטרה קר מידה 5",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -2032,7 +2571,7 @@
      "SHUFERSAL",
      "YOHANANOF"
     ],
-    "min_price": 39.9
+    "min_price": 46.9
    }
   ],
   "קוטג'": [
@@ -2188,69 +2727,6 @@
     "min_price": 28.9
    }
   ],
-  "חסה": [
-   {
-    "barcode": "7290018795385",
-    "name": "חסה לאליק מהדרין מרי",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 12.9
-   },
-   {
-    "barcode": "7290115678598",
-    "name": "חסה אייסברג 300גר טע",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 10.9
-   },
-   {
-    "barcode": "7290013366634",
-    "name": "חסה סלנובה הידרופוני )ק(",
-    "chains": [
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 11.9
-   },
-   {
-    "barcode": "7290016823257",
-    "name": "חסה סלנובה מהדרין יח",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 11.9
-   },
-   {
-    "barcode": "7290013366665",
-    "name": "חסה גמביט קראנצית כרמלים יחידה",
-    "chains": [
-     "SHUFERSAL",
-     "TIV_TAAM",
-     "YOHANANOF"
-    ],
-    "min_price": 13.9
-   },
-   {
-    "barcode": "7290016334500",
-    "name": "חסה לבבות בשקית (ק)",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL"
-    ],
-    "min_price": 10.9
-   }
-  ],
   "תירס רגיל": [
    {
     "barcode": "7290000209388",
@@ -2319,6 +2795,64 @@
     "min_price": 9.9
    }
   ],
+  "ביצים": [
+   {
+    "barcode": "7290001201619",
+    "name": "ביצים 18 יח בינוני ל",
+    "chains": [
+     "OSHER_AD",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 19.9
+   },
+   {
+    "barcode": "5705550300963",
+    "name": "ביצי דג שיבוט 200 גר",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "742259241895",
+    "name": "ביצים 12 יח בינוני M",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 13.4
+   },
+   {
+    "barcode": "742259241901",
+    "name": "ביצים 12 יח גדול L",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 14.5
+   },
+   {
+    "barcode": "742259241925",
+    "name": "ביצים 18יח בנוני M",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 20.0
+   },
+   {
+    "barcode": "742259241932",
+    "name": "ביצים 18יח גדול L",
+    "chains": [
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 21.7
+   }
+  ],
   "עגבניות": [
    {
     "barcode": "7290019600077",
@@ -2363,12 +2897,12 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290013128867",
-    "name": "עגבניות שרי לובלו",
+    "barcode": "7290000000162",
+    "name": "עגבניות שרי פרימיום",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 18.9
+    "min_price": 24.9
    }
   ],
   "בצל ירוק": [
@@ -2429,6 +2963,58 @@
     "min_price": 6.9
    }
   ],
+  "גזר": [
+   {
+    "barcode": "7290018825006",
+    "name": "גזר ארוז",
+    "chains": [
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 3.9
+   },
+   {
+    "barcode": "7290000001661",
+    "name": "גזר תפזורת",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290011128005",
+    "name": "גזר ארוז",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000000102",
+    "name": "גזר ארוז",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 3.9
+   },
+   {
+    "barcode": "7290000000249",
+    "name": "גזר בתפזורת",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000001102",
+    "name": "גזר",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.0
+   }
+  ],
   "מלון": [
    {
     "barcode": "7290000965079",
@@ -2436,7 +3022,7 @@
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 8.9
+    "min_price": 11.9
    },
    {
     "barcode": "7290000965086",
@@ -2444,7 +3030,7 @@
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 8.9
+    "min_price": 11.9
    },
    {
     "barcode": "7290000992839",
@@ -2452,7 +3038,7 @@
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 8.9
+    "min_price": 11.9
    },
    {
     "barcode": "7290000000140",
@@ -2477,64 +3063,6 @@
      "RAMI_LEVY"
     ],
     "min_price": 7.9
-   }
-  ],
-  "ביצים": [
-   {
-    "barcode": "7290001201619",
-    "name": "ביצים 18 יח בינוני ל",
-    "chains": [
-     "OSHER_AD",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 19.9
-   },
-   {
-    "barcode": "5705550300963",
-    "name": "ביצי דג שיבוט 200 גר",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 12.9
-   },
-   {
-    "barcode": "742259241895",
-    "name": "ביצים 12 יח בינוני M",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 13.4
-   },
-   {
-    "barcode": "742259241901",
-    "name": "ביצים 12 יח גדול L",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 14.5
-   },
-   {
-    "barcode": "742259241925",
-    "name": "ביצים 18יח בנוני M",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 20.0
-   },
-   {
-    "barcode": "742259241932",
-    "name": "ביצים 18יח גדול L",
-    "chains": [
-     "RAMI_LEVY",
-     "YOHANANOF"
-    ],
-    "min_price": 21.7
    }
   ],
   "חלב": [
@@ -2604,8 +3132,8 @@
     "min_price": 9.1
    },
    {
-    "barcode": "7290000042435",
-    "name": "חלב דל שומן בקרטון+פקק 1 ליטר 1%",
+    "barcode": "7290116936307",
+    "name": "חלב תנובה 3% שומן 2 ליטר מהדרין",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -2614,59 +3142,120 @@
      "TIV_TAAM",
      "YOHANANOF"
     ],
-    "min_price": 6.8
+    "min_price": 14.4
    }
   ],
-  "גזר": [
+  "חסה": [
    {
-    "barcode": "7290018825006",
-    "name": "גזר ארוז",
+    "barcode": "7290018795385",
+    "name": "חסה לאליק מהדרין מרי",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 12.9
+   },
+   {
+    "barcode": "7290115678598",
+    "name": "חסה אייסברג 300גר טע",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290013366634",
+    "name": "חסה סלנובה הידרופוני )ק(",
     "chains": [
      "SHUFERSAL",
      "TIV_TAAM",
      "YOHANANOF"
     ],
-    "min_price": 3.9
+    "min_price": 11.9
    },
    {
-    "barcode": "7290000001661",
-    "name": "גזר תפזורת",
+    "barcode": "7290016823257",
+    "name": "חסה סלנובה מהדרין יח",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290013366665",
+    "name": "חסה גמביט קראנצית כרמלים יחידה",
+    "chains": [
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "7290016334500",
+    "name": "חסה לבבות בשקית (ק)",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 10.9
+   }
+  ],
+  "פלפל חריף ירוק": [
+   {
+    "barcode": "7290000000619",
+    "name": "פלפל חריף",
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 6.9
+    "min_price": 12.9
    },
    {
-    "barcode": "7290011128005",
-    "name": "גזר ארוז",
-    "chains": [
-     "SHUFERSAL"
-    ],
-    "min_price": 5.9
-   },
-   {
-    "barcode": "7290000000102",
-    "name": "גזר ארוז",
+    "barcode": "7290000000132",
+    "name": "פלפל חריף",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 3.9
+    "min_price": 8.9
    },
    {
-    "barcode": "7290000000249",
-    "name": "גזר בתפזורת",
+    "barcode": "739",
+    "name": "פלפל חריף",
     "chains": [
-     "RAMI_LEVY"
+     "YOHANANOF"
     ],
-    "min_price": 4.9
+    "min_price": 8.9
    },
    {
-    "barcode": "7290000001102",
-    "name": "גזר",
+    "barcode": "25",
+    "name": "פלפל חריף ירוק",
     "chains": [
-     "RAMI_LEVY"
+     "KESHET"
     ],
-    "min_price": 5.0
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290009001525",
+    "name": "פלפל חריף",
+    "chains": [
+     "OSHER_AD"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "4412746",
+    "name": "פלפל חריף",
+    "chains": [
+     "TIV_TAAM"
+    ],
+    "min_price": 13.9
    }
   ],
   "צנוניות": [
@@ -2723,6 +3312,232 @@
     "min_price": 4.9
    }
   ],
+  "בצל לבן": [
+   {
+    "barcode": "7290000000480",
+    "name": "בצל יבש",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000001036",
+    "name": "בצל יבש אדום",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000000108",
+    "name": "בצל יבש",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.6
+   },
+   {
+    "barcode": "7290000001083",
+    "name": "בצל יבש",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.6
+   },
+   {
+    "barcode": "7290000960906",
+    "name": "בצל יבש אורגני במשקל",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "620",
+    "name": "בצל יבש",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 3.9
+   }
+  ],
+  "כרוב": [
+   {
+    "barcode": "7290000000138",
+    "name": "כרוב לבן",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000000145",
+    "name": "כרוב אדום",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000000109",
+    "name": "כרוב לבן",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.3
+   },
+   {
+    "barcode": "7290000000110",
+    "name": "כרוב אדום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290000916248",
+    "name": "כרוב לבן אורגני",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 16.9
+   },
+   {
+    "barcode": "7290000001090",
+    "name": "כרוב לבן",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.9
+   }
+  ],
+  "תירס": [
+   {
+    "barcode": "7290000208329",
+    "name": "תירס גרעינים 550 גר A2 יכין",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290018359495",
+    "name": "תירס מהשדה ללא תוספת סוכר יכין 550 גר",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290000104690",
+    "name": "תירס גרעינים 800 גרם סנפרוסט",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 17.9
+   },
+   {
+    "barcode": "7290003578177",
+    "name": "תירס גמדי צעיר שלם 410 גרם",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 7.5
+   },
+   {
+    "barcode": "7290000208312",
+    "name": "תירס מתוק יכין בואקום400",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 6.9
+   },
+   {
+    "barcode": "7290119380350",
+    "name": "תירס קראנצי מתוק שטראוס 380 גר",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 7.9
+   }
+  ],
+  "תפוזים": [
+   {
+    "barcode": "7290000964508",
+    "name": "תפוז",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000964348",
+    "name": "תפוז למיץ ברשת",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000000122",
+    "name": "תפוז",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000000230",
+    "name": "תפוז ברשת",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 4.3
+   },
+   {
+    "barcode": "797",
+    "name": "תפוז",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "119",
+    "name": "תפוזים",
+    "chains": [
+     "KESHET"
+    ],
+    "min_price": 7.9
+   }
+  ],
   "לימונים": [
    {
     "barcode": "7290000964492",
@@ -2733,20 +3548,20 @@
     "min_price": 12.9
    },
    {
-    "barcode": "7290000001117",
-    "name": "לימון",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 5.0
-   },
-   {
     "barcode": "7290000000117",
     "name": "לימון",
     "chains": [
      "RAMI_LEVY"
     ],
     "min_price": 5.9
+   },
+   {
+    "barcode": "7290000001117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.0
    },
    {
     "barcode": "7290000000517",
@@ -2771,6 +3586,224 @@
      "RAMI_LEVY"
     ],
     "min_price": 14.9
+   }
+  ],
+  "תפוחי אדמה": [
+   {
+    "barcode": "7290018825020",
+    "name": "תפוח אדמה לבן גורמה",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "SHUFERSAL"
+    ],
+    "min_price": 8.9
+   },
+   {
+    "barcode": "7290018619308",
+    "name": "תפוח אדמה אגו שף",
+    "chains": [
+     "OSHER_AD",
+     "SHUFERSAL"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000000503",
+    "name": "תפוח אדמה אדום לאפיה",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 4.9
+   },
+   {
+    "barcode": "7290010868186",
+    "name": "תפוח אדמה בייבי גורמ",
+    "chains": [
+     "OSHER_AD",
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000000596",
+    "name": "תפוח אדמה לבן תפזורת",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "7290000001692",
+    "name": "תפוח אדמה אדום ארוז",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 6.9
+   }
+  ],
+  "עגבניות שרי": [
+   {
+    "barcode": "7290000969367",
+    "name": "עגבנית שרי אורגנית",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 21.7
+   },
+   {
+    "barcode": "7290000000162",
+    "name": "עגבניות שרי פרימיום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
+   },
+   {
+    "barcode": "7290013128867",
+    "name": "עגבניות שרי לובלו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290000000313",
+    "name": "עגבניות שרי צהוב/כתו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290000128867",
+    "name": "עגבניות שרי לובלו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   },
+   {
+    "barcode": "7290000000390",
+    "name": "עגבניות שרי וויטני",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   }
+  ],
+  "גמבה אדומה": [
+   {
+    "barcode": "8690777221405",
+    "name": "פלפל אדום קלויים על האש 650 גרם SERA",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 13.8
+   },
+   {
+    "barcode": "8690531401722",
+    "name": "פלפל אדום קלוי גורמט",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290004219505",
+    "name": "פלפלים אדומים קלויים650ג",
+    "chains": [
+     "KESHET",
+     "SHUFERSAL"
+    ],
+    "min_price": 13.9
+   },
+   {
+    "barcode": "7290018823606",
+    "name": "פלפל אדום אורגני 300",
+    "chains": [
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 11.5
+   },
+   {
+    "barcode": "7290000000091",
+    "name": "פלפל אדום",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 10.9
+   },
+   {
+    "barcode": "7290000000104",
+    "name": "פלפל אדום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 9.7
+   }
+  ],
+  "גמבה צהובה": [
+   {
+    "barcode": "8690531032377",
+    "name": "פלפלים צהובים חריפים",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "YOHANANOF"
+    ],
+    "min_price": 9.9
+   },
+   {
+    "barcode": "7290000000168",
+    "name": "פלפל צהוב",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
+   },
+   {
+    "barcode": "7290000000855",
+    "name": "פלפל צהוב",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 11.9
+   },
+   {
+    "barcode": "7290000961279",
+    "name": "פלפל צהוב אורגני במשקל",
+    "chains": [
+     "SHUFERSAL"
+    ],
+    "min_price": 20.9
+   },
+   {
+    "barcode": "734",
+    "name": "פלפל צהוב",
+    "chains": [
+     "YOHANANOF"
+    ],
+    "min_price": 7.9
+   },
+   {
+    "barcode": "27",
+    "name": "פלפל צהוב",
+    "chains": [
+     "KESHET"
+    ],
+    "min_price": 10.9
    }
   ]
  },
