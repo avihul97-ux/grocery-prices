@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -298,14 +298,14 @@
   },
   {
    "item": "mushroom sauce",
-   "product": "רוטב פטריות צמחוני 250 מ\"ל מקסצאפ",
-   "barcode": "8858271003136",
+   "product": "≈ רוטב פטריות ריקו 210",
+   "barcode": "4604075016810",
    "chain": "קשת טעמים",
-   "branch": "קולינריק רמת גן",
-   "price": 12.9,
+   "branch": "קרית אליעזר",
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.16
+   "unit_price": 5.67
   },
   {
    "item": "mushroom sauce",
@@ -1410,7 +1410,7 @@
   {
    "item": "בצל לבן",
    "product": "בצל יבש (לק\"ג)",
-   "barcode": "7290000000108",
+   "barcode": "7290000001083",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 5.6,
@@ -1468,10 +1468,10 @@
    "barcode": "7290000000109",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 4.3,
+   "price": 3.3,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 4.3
+   "unit_price": 3.3
   },
   {
    "item": "כרוב",
@@ -2149,7 +2149,6 @@
     "barcode": "8858271003136",
     "name": "רוטב פטריות צמחוני 250 מ\"ל מקסצאפ",
     "chains": [
-     "KESHET",
      "RAMI_LEVY",
      "TIV_TAAM",
      "YOHANANOF"
@@ -2897,12 +2896,12 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290000000162",
-    "name": "עגבניות שרי פרימיום",
+    "barcode": "7290013128867",
+    "name": "עגבניות שרי לובלו",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 24.9
+    "min_price": 18.9
    }
   ],
   "בצל ירוק": [
@@ -3198,14 +3197,14 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290016334500",
-    "name": "חסה לבבות בשקית (ק)",
+    "barcode": "7290000000978",
+    "name": "חסה ברכת קטיף מהדרין",
     "chains": [
-     "KESHET",
+     "OSHER_AD",
      "RAMI_LEVY",
      "SHUFERSAL"
     ],
-    "min_price": 10.9
+    "min_price": 5.9
    }
   ],
   "פלפל חריף ירוק": [
@@ -3385,7 +3384,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.3
+    "min_price": 3.3
    },
    {
     "barcode": "7290000000110",
@@ -3548,20 +3547,20 @@
     "min_price": 12.9
    },
    {
-    "barcode": "7290000000117",
-    "name": "לימון",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 5.9
-   },
-   {
     "barcode": "7290000001117",
     "name": "לימון",
     "chains": [
      "RAMI_LEVY"
     ],
     "min_price": 5.0
+   },
+   {
+    "barcode": "7290000000117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.9
    },
    {
     "barcode": "7290000000517",
@@ -3654,20 +3653,20 @@
     "min_price": 21.7
    },
    {
-    "barcode": "7290000000162",
-    "name": "עגבניות שרי פרימיום",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 24.9
-   },
-   {
     "barcode": "7290013128867",
     "name": "עגבניות שרי לובלו",
     "chains": [
      "RAMI_LEVY"
     ],
     "min_price": 18.9
+   },
+   {
+    "barcode": "7290000000162",
+    "name": "עגבניות שרי פרימיום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
    },
    {
     "barcode": "7290000000313",
@@ -3750,7 +3749,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 9.7
+    "min_price": 7.7
    }
   ],
   "גמבה צהובה": [
