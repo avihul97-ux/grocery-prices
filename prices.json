@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -929,10 +929,10 @@
    "barcode": "4412784",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 9.9,
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 9.9
+   "unit_price": 8.9
   },
   {
    "item": "עגבניות",
@@ -951,10 +951,10 @@
    "barcode": "7290009000122",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 7.9,
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 7.9
+   "unit_price": 8.9
   },
   {
    "item": "עגבניות",
@@ -1336,10 +1336,10 @@
    "barcode": "4412746",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 13.9,
+   "price": 12.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 13.9
+   "unit_price": 12.9
   },
   {
    "item": "פלפל חריף ירוק",
@@ -1410,7 +1410,7 @@
   {
    "item": "בצל לבן",
    "product": "בצל יבש (לק\"ג)",
-   "barcode": "7290000001083",
+   "barcode": "7290000000108",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 5.6,
@@ -1435,10 +1435,10 @@
    "barcode": "9913019",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 6.9,
+   "price": 5.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 6.9
+   "unit_price": 5.9
   },
   {
    "item": "בצל לבן",
@@ -1468,10 +1468,10 @@
    "barcode": "7290000000109",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 3.3,
+   "price": 3.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 3.3
+   "unit_price": 3.9
   },
   {
    "item": "כרוב",
@@ -1479,10 +1479,10 @@
    "barcode": "7290009000504",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 2.9,
+   "price": 3.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 2.9
+   "unit_price": 3.9
   },
   {
    "item": "כרוב",
@@ -1633,10 +1633,10 @@
    "barcode": "4412432",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 10.9,
+   "price": 9.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 10.9
+   "unit_price": 9.9
   },
   {
    "item": "תפוזים",
@@ -1699,10 +1699,10 @@
    "barcode": "4412586",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 13.9,
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 13.9
+   "unit_price": 11.9
   },
   {
    "item": "לימונים",
@@ -2537,18 +2537,6 @@
     "min_price": 19.7
    },
    {
-    "barcode": "7290111346538",
-    "name": "האגיס פרידום דריי5+ 28יח",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 39.9
-   },
-   {
     "barcode": "7290000197425",
     "name": "האגיס פרידום דריי מידה3",
     "chains": [
@@ -2563,6 +2551,18 @@
    {
     "barcode": "7290000262413",
     "name": "האגיס אקסטרה קר מידה 5",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 46.9
+   },
+   {
+    "barcode": "7290000205762",
+    "name": "האגיס אקסטרה קר מידה 3",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -3254,7 +3254,7 @@
     "chains": [
      "TIV_TAAM"
     ],
-    "min_price": 13.9
+    "min_price": 12.9
    }
   ],
   "צנוניות": [
@@ -3384,7 +3384,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 3.3
+    "min_price": 3.9
    },
    {
     "barcode": "7290000000110",
@@ -3674,7 +3674,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 18.9
+    "min_price": 21.7
    },
    {
     "barcode": "7290000128867",
@@ -3708,6 +3708,16 @@
     "min_price": 13.8
    },
    {
+    "barcode": "7290004219505",
+    "name": "פלפלים אדומים קלויים650ג",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 13.7
+   },
+   {
     "barcode": "8690531401722",
     "name": "פלפל אדום קלוי גורמט",
     "chains": [
@@ -3716,15 +3726,6 @@
      "RAMI_LEVY"
     ],
     "min_price": 9.9
-   },
-   {
-    "barcode": "7290004219505",
-    "name": "פלפלים אדומים קלויים650ג",
-    "chains": [
-     "KESHET",
-     "SHUFERSAL"
-    ],
-    "min_price": 13.9
    },
    {
     "barcode": "7290018823606",
@@ -3770,7 +3771,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 5.9
+    "min_price": 7.9
    },
    {
     "barcode": "7290000000855",
