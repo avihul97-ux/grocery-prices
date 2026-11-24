@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -452,19 +452,19 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח פאוארבו",
-   "barcode": "4640018993398",
+   "product": "קפסולות למדיח בניחוח",
+   "barcode": "7290112005168",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
    "price": 63.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 63.9
+   "unit_price": 10.24
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח פאוארבו",
-   "barcode": "4640018993398",
+   "product": "קפסולות למדיח בניחוח",
+   "barcode": "7290112005168",
    "chain": "יוחננוף",
    "branch": "בן צבי תל אביב",
    "price": 63.9,
@@ -474,8 +474,8 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח פאוארבו",
-   "barcode": "4640018993398",
+   "product": "קפסולות למדיח בניחוח",
+   "barcode": "7290112005168",
    "chain": "שופרסל",
    "branch": "שלי רמת גן- מרום נווה",
    "price": 67.9,
@@ -485,25 +485,25 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "טבליות למדיח פאוארבו",
-   "barcode": "4640018993398",
+   "product": "קפסולות למדיח בניחוח",
+   "barcode": "7290112005168",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 56.9,
+   "price": 58.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 0.95
+   "unit_price": 0.98
   },
   {
    "item": "טבליות למדיח",
-   "product": "≈ טבליות למדיח פיניש פ",
-   "barcode": "7290112007117",
+   "product": "≈ קפסולות למדיח פלטינו",
+   "barcode": "8700216236126",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 39.9,
+   "price": 79.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 0.73
+   "unit_price": 1.13
   },
   {
    "item": "מלח למדיח",
@@ -973,10 +973,10 @@
    "barcode": "2",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 9.9,
+   "price": 8.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 9.9
+   "unit_price": 8.9
   },
   {
    "item": "בצל ירוק",
@@ -1292,10 +1292,10 @@
    "barcode": "7290000000619",
    "chain": "שופרסל",
    "branch": "שלי רמת גן- קריניצי",
-   "price": 12.9,
+   "price": 11.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 12.9
+   "unit_price": 11.9
   },
   {
    "item": "פלפל חריף ירוק",
@@ -1479,10 +1479,10 @@
    "barcode": "7290009000504",
    "chain": "אושר עד",
    "branch": "בני ברק",
-   "price": 3.9,
+   "price": 2.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 3.9
+   "unit_price": 2.9
   },
   {
    "item": "כרוב",
@@ -2339,17 +2339,6 @@
   ],
   "טבליות למדיח": [
    {
-    "barcode": "4640018993398",
-    "name": "טבליות למדיח פאוארבו",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 56.9
-   },
-   {
     "barcode": "7290112005168",
     "name": "קפסולות למדיח בניחוח",
     "chains": [
@@ -2359,6 +2348,17 @@
      "YOHANANOF"
     ],
     "min_price": 58.9
+   },
+   {
+    "barcode": "4640018993398",
+    "name": "טבליות למדיח פאוארבו",
+    "chains": [
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 56.9
    },
    {
     "barcode": "7290112006462",
@@ -2537,6 +2537,18 @@
     "min_price": 19.7
    },
    {
+    "barcode": "7290111346538",
+    "name": "האגיס פרידום דריי5+ 28יח",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "YOHANANOF"
+    ],
+    "min_price": 39.9
+   },
+   {
     "barcode": "7290000197425",
     "name": "האגיס פרידום דריי מידה3",
     "chains": [
@@ -2551,18 +2563,6 @@
    {
     "barcode": "7290000262413",
     "name": "האגיס אקסטרה קר מידה 5",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 46.9
-   },
-   {
-    "barcode": "7290000205762",
-    "name": "האגיס אקסטרה קר מידה 3",
     "chains": [
      "KESHET",
      "OSHER_AD",
@@ -2896,12 +2896,12 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290013128867",
-    "name": "עגבניות שרי לובלו",
+    "barcode": "7290000000162",
+    "name": "עגבניות שרי פרימיום",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 18.9
+    "min_price": 24.9
    }
   ],
   "בצל ירוק": [
@@ -2995,7 +2995,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 3.9
+    "min_price": 4.3
    },
    {
     "barcode": "7290000000249",
@@ -3214,7 +3214,7 @@
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 12.9
+    "min_price": 11.9
    },
    {
     "barcode": "7290000000132",
@@ -3279,7 +3279,7 @@
     "min_price": 4.9
    },
    {
-    "barcode": "7296073706557",
+    "barcode": "7290005610509",
     "name": "צנונית מארז (ק)",
     "chains": [
      "SHUFERSAL"
@@ -3287,7 +3287,7 @@
     "min_price": 6.9
    },
    {
-    "barcode": "7290005610509",
+    "barcode": "7296073706557",
     "name": "צנונית מארז (ק)",
     "chains": [
      "SHUFERSAL"
@@ -3337,20 +3337,20 @@
     "min_price": 5.6
    },
    {
-    "barcode": "7290000001083",
-    "name": "בצל יבש",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 5.6
-   },
-   {
     "barcode": "7290000960906",
     "name": "בצל יבש אורגני במשקל",
     "chains": [
      "SHUFERSAL"
     ],
     "min_price": 13.9
+   },
+   {
+    "barcode": "7290000001083",
+    "name": "בצל יבש",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.6
    },
    {
     "barcode": "620",
@@ -3547,20 +3547,20 @@
     "min_price": 12.9
    },
    {
-    "barcode": "7290000001117",
-    "name": "לימון",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 5.0
-   },
-   {
     "barcode": "7290000000117",
     "name": "לימון",
     "chains": [
      "RAMI_LEVY"
     ],
     "min_price": 5.9
+   },
+   {
+    "barcode": "7290000001117",
+    "name": "לימון",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 5.0
    },
    {
     "barcode": "7290000000517",
@@ -3653,14 +3653,6 @@
     "min_price": 21.7
    },
    {
-    "barcode": "7290013128867",
-    "name": "עגבניות שרי לובלו",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 18.9
-   },
-   {
     "barcode": "7290000000162",
     "name": "עגבניות שרי פרימיום",
     "chains": [
@@ -3669,12 +3661,20 @@
     "min_price": 24.9
    },
    {
+    "barcode": "7290013128867",
+    "name": "עגבניות שרי לובלו",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 18.9
+   },
+   {
     "barcode": "7290000000313",
     "name": "עגבניות שרי צהוב/כתו",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 21.7
+    "min_price": 24.9
    },
    {
     "barcode": "7290000128867",
@@ -3779,7 +3779,7 @@
     "chains": [
      "SHUFERSAL"
     ],
-    "min_price": 11.9
+    "min_price": 10.9
    },
    {
     "barcode": "7290000961279",
@@ -3803,7 +3803,7 @@
     "chains": [
      "KESHET"
     ],
-    "min_price": 10.9
+    "min_price": 9.9
    }
   ]
  },
