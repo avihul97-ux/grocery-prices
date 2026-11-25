@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -1413,10 +1413,10 @@
    "barcode": "7290000000108",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 5.6,
+   "price": 4.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.6
+   "unit_price": 4.9
   },
   {
    "item": "בצל לבן",
@@ -1600,10 +1600,10 @@
    "barcode": "7290000000122",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 5.9,
+   "price": 6.7,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.9
+   "unit_price": 6.7
   },
   {
    "item": "תפוזים",
@@ -1753,7 +1753,7 @@
    "product": "תפוח אדמה לאפיה (לק\"ג)",
    "barcode": "7290000000401",
    "chain": "רמי לוי",
-   "branch": "רמת גן  איילון",
+   "branch": "בן גוריון גבעתיים",
    "price": 4.9,
    "promo_price": null,
    "promo_desc": "",
@@ -2896,12 +2896,12 @@
     "min_price": 13.9
    },
    {
-    "barcode": "7290000000162",
-    "name": "עגבניות שרי פרימיום",
+    "barcode": "7290013128867",
+    "name": "עגבניות שרי לובלו",
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 24.9
+    "min_price": 18.9
    }
   ],
   "בצל ירוק": [
@@ -2995,7 +2995,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.3
+    "min_price": 3.9
    },
    {
     "barcode": "7290000000249",
@@ -3288,7 +3288,7 @@
    },
    {
     "barcode": "7296073706557",
-    "name": "צנונית מארז (ק)",
+    "name": "צנונית מארז )ק(",
     "chains": [
      "SHUFERSAL"
     ],
@@ -3334,7 +3334,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 5.6
+    "min_price": 4.9
    },
    {
     "barcode": "7290000960906",
@@ -3350,7 +3350,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 5.6
+    "min_price": 4.9
    },
    {
     "barcode": "620",
@@ -3510,7 +3510,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 5.9
+    "min_price": 6.7
    },
    {
     "barcode": "7290000000230",
@@ -3614,7 +3614,7 @@
      "RAMI_LEVY",
      "SHUFERSAL"
     ],
-    "min_price": 4.9
+    "min_price": 6.9
    },
    {
     "barcode": "7290010868186",
@@ -3653,20 +3653,20 @@
     "min_price": 21.7
    },
    {
-    "barcode": "7290000000162",
-    "name": "עגבניות שרי פרימיום",
-    "chains": [
-     "RAMI_LEVY"
-    ],
-    "min_price": 24.9
-   },
-   {
     "barcode": "7290013128867",
     "name": "עגבניות שרי לובלו",
     "chains": [
      "RAMI_LEVY"
     ],
     "min_price": 18.9
+   },
+   {
+    "barcode": "7290000000162",
+    "name": "עגבניות שרי פרימיום",
+    "chains": [
+     "RAMI_LEVY"
+    ],
+    "min_price": 24.9
    },
    {
     "barcode": "7290000000313",
@@ -3708,16 +3708,6 @@
     "min_price": 13.8
    },
    {
-    "barcode": "7290004219505",
-    "name": "פלפלים אדומים קלויים650ג",
-    "chains": [
-     "KESHET",
-     "RAMI_LEVY",
-     "SHUFERSAL"
-    ],
-    "min_price": 13.7
-   },
-   {
     "barcode": "8690531401722",
     "name": "פלפל אדום קלוי גורמט",
     "chains": [
@@ -3726,6 +3716,15 @@
      "RAMI_LEVY"
     ],
     "min_price": 9.9
+   },
+   {
+    "barcode": "7290004219505",
+    "name": "פלפלים אדומים קלויים650ג",
+    "chains": [
+     "KESHET",
+     "SHUFERSAL"
+    ],
+    "min_price": 13.9
    },
    {
     "barcode": "7290018823606",
