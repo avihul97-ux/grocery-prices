@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -1413,10 +1413,10 @@
    "barcode": "7290000000108",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 4.9,
+   "price": 5.5,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 4.9
+   "unit_price": 5.5
   },
   {
    "item": "בצל לבן",
@@ -1468,10 +1468,10 @@
    "barcode": "7290000000109",
    "chain": "רמי לוי",
    "branch": "רמת גן  איילון",
-   "price": 3.9,
+   "price": 4.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 3.9
+   "unit_price": 4.9
   },
   {
    "item": "כרוב",
@@ -2237,6 +2237,19 @@
     "min_price": 11.6
    },
    {
+    "barcode": "7290000047621",
+    "name": "גבינה לבנה 5% 250ג תנובה",
+    "chains": [
+     "KESHET",
+     "OSHER_AD",
+     "RAMI_LEVY",
+     "SHUFERSAL",
+     "TIV_TAAM",
+     "YOHANANOF"
+    ],
+    "min_price": 5.8
+   },
+   {
     "barcode": "7290004127862",
     "name": "גבינה לבנה 5% 750 גרם",
     "chains": [
@@ -2259,18 +2272,6 @@
      "YOHANANOF"
     ],
     "min_price": 17.4
-   },
-   {
-    "barcode": "7290010945481",
-    "name": "גבינה לבנה 5% שומן 500 ג",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "YOHANANOF"
-    ],
-    "min_price": 11.6
    }
   ],
   "שקדים טבעיים": [
@@ -2995,7 +2996,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 3.9
+    "min_price": 4.4
    },
    {
     "barcode": "7290000000249",
@@ -3334,7 +3335,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.9
+    "min_price": 5.5
    },
    {
     "barcode": "7290000960906",
@@ -3350,7 +3351,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 4.9
+    "min_price": 5.5
    },
    {
     "barcode": "620",
@@ -3384,7 +3385,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 3.9
+    "min_price": 4.9
    },
    {
     "barcode": "7290000000110",
@@ -3552,7 +3553,7 @@
     "chains": [
      "RAMI_LEVY"
     ],
-    "min_price": 5.9
+    "min_price": 6.9
    },
    {
     "barcode": "7290000001117",
@@ -3802,7 +3803,7 @@
     "chains": [
      "KESHET"
     ],
-    "min_price": 9.9
+    "min_price": 8.9
    }
   ]
  },
