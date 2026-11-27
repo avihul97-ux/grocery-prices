@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "city": "רמת גן והסביבה",
  "report": [
   {
@@ -496,14 +496,14 @@
   },
   {
    "item": "טבליות למדיח",
-   "product": "≈ קפסולות למדיח פלטינו",
-   "barcode": "8700216236126",
+   "product": "≈ קפסולות למדיח פיירי",
+   "barcode": "8700216236164",
    "chain": "קשת טעמים",
    "branch": "קרית אליעזר",
-   "price": 79.9,
+   "price": 54.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 1.13
+   "unit_price": 1.14
   },
   {
    "item": "מלח למדיח",
@@ -929,10 +929,10 @@
    "barcode": "4412784",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 8.9,
+   "price": 9.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 8.9
+   "unit_price": 9.9
   },
   {
    "item": "עגבניות",
@@ -1435,10 +1435,10 @@
    "barcode": "9913019",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 5.9,
+   "price": 6.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 5.9
+   "unit_price": 6.9
   },
   {
    "item": "בצל לבן",
@@ -1633,10 +1633,10 @@
    "barcode": "4412432",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 9.9,
+   "price": 10.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 9.9
+   "unit_price": 10.9
   },
   {
    "item": "תפוזים",
@@ -1699,10 +1699,10 @@
    "barcode": "4412586",
    "chain": "טיב טעם",
    "branch": "דלי כורזין גבעתיים",
-   "price": 11.9,
+   "price": 13.9,
    "promo_price": null,
    "promo_desc": "",
-   "unit_price": 11.9
+   "unit_price": 13.9
   },
   {
    "item": "לימונים",
@@ -1948,7 +1948,7 @@
    },
    {
     "barcode": "7290002627067",
-    "name": "שייטל בקר טרי מוכשר",
+    "name": "שייטל מיושן מקפוא מוכשר",
     "chains": [
      "SHUFERSAL"
     ],
@@ -2072,16 +2072,6 @@
     "min_price": 14.5
    },
    {
-    "barcode": "7290015039635",
-    "name": "גבינת פרמזן 200ג אירו",
-    "chains": [
-     "OSHER_AD",
-     "RAMI_LEVY",
-     "SHUFERSAL"
-    ],
-    "min_price": 19.9
-   },
-   {
     "barcode": "7290000046563",
     "name": "גבינת פרמזן 23% במשקל",
     "chains": [
@@ -2089,6 +2079,15 @@
      "SHUFERSAL"
     ],
     "min_price": 129.0
+   },
+   {
+    "barcode": "7290015039635",
+    "name": "גבינת פרמזן 200ג אירו",
+    "chains": [
+     "RAMI_LEVY",
+     "SHUFERSAL"
+    ],
+    "min_price": 22.9
    },
    {
     "barcode": "3578474",
@@ -2373,26 +2372,6 @@
     "min_price": 39.9
    },
    {
-    "barcode": "8700216236126",
-    "name": "קפסולות למדיח פלטינו",
-    "chains": [
-     "KESHET",
-     "OSHER_AD",
-     "RAMI_LEVY"
-    ],
-    "min_price": 59.9
-   },
-   {
-    "barcode": "8700216237239",
-    "name": "טבליות למדיח פיירי 41 יח",
-    "chains": [
-     "RAMI_LEVY",
-     "SHUFERSAL",
-     "TIV_TAAM"
-    ],
-    "min_price": 46.9
-   },
-   {
     "barcode": "7290108351910",
     "name": "טבליות למדיח ספארק 30 יח",
     "chains": [
@@ -2401,6 +2380,25 @@
      "YOHANANOF"
     ],
     "min_price": 19.9
+   },
+   {
+    "barcode": "7290108352009",
+    "name": "קפסולות גל למדיח סנו ספארק 50 יח",
+    "chains": [
+     "KESHET",
+     "RAMI_LEVY",
+     "TIV_TAAM"
+    ],
+    "min_price": 44.9
+   },
+   {
+    "barcode": "8001841893990",
+    "name": "טבליות למדיח פלטינום פיירי 37 יחידות",
+    "chains": [
+     "KESHET",
+     "TIV_TAAM"
+    ],
+    "min_price": 39.9
    }
   ],
   "מלח למדיח": [
@@ -2476,6 +2474,7 @@
     "barcode": "7290112006585",
     "name": "נוזל לניקוי אסלה הרפ",
     "chains": [
+     "KESHET",
      "RAMI_LEVY",
      "SHUFERSAL"
     ],
